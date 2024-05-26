@@ -11,16 +11,23 @@ public class LevelGeneration : MonoBehaviour
     //Debug.Log(Random.value);
     //Debug.Log(Random.value);
     //Debug.Log(Random.value);
-    private const int maxSizeX = 19;
-    private const int maxSizeY = 19;
+    private const int maxSizeX = 20;
+    private const int maxSizeY = 20;
     int[,] dungShape = new int[maxSizeX, maxSizeY];
 
     private int numberOfIterations = 9; // how much branches there will be
 
+    private int minPixelAmount = 5;
+    private int currPixelAmount = 0;
+
     private float chanceOfBranching = 0.6f;
-    private float chanceOfClumping = 0.3f;
+    private float chanceOfClumping = 0.1f;
 
     public int DungeonSeed = 1;
+
+
+
+    private int sizeOfRoom = 16;
 
     int GetNeighboringRoomsAmount(int x, int y, int[,] arrayum)
     {
@@ -71,6 +78,8 @@ public class LevelGeneration : MonoBehaviour
             {
                 for (int b = 1; b < dungShape.GetLength(1) - 1; b++)
                 {
+                    bool wasPixelCreated = false;
+                    //////////////////////////////////////////////////////////////////
                     // create new pixels
                     if (dungShape[a, b] == i)
                     {
@@ -79,10 +88,14 @@ public class LevelGeneration : MonoBehaviour
                             if (GetNeighboringRoomsAmount(a + 1, b, dungShape) == 1 && UnityEngine.Random.value < chanceOfBranching)
                             {
                                 dungShape[a + 1, b] = i + 1;
+                                wasPixelCreated = true;
+                                currPixelAmount += 1;
                             }
                             else if (GetNeighboringRoomsAmount(a + 1, b, dungShape) > 1 && UnityEngine.Random.value < chanceOfClumping)
                             {
                                 dungShape[a + 1, b] = i + 1;
+                                wasPixelCreated = true;
+                                currPixelAmount += 1;
                             }
                         }
                         if (dungShape[a -1, b] == 0)
@@ -90,10 +103,14 @@ public class LevelGeneration : MonoBehaviour
                             if (GetNeighboringRoomsAmount(a - 1, b, dungShape) == 1 && UnityEngine.Random.value < chanceOfBranching)
                             {
                                 dungShape[a - 1, b] = i + 1;
+                                wasPixelCreated = true;
+                                currPixelAmount += 1;
                             }
                             else if (GetNeighboringRoomsAmount(a - 1, b, dungShape) > 1 && UnityEngine.Random.value < chanceOfClumping)
                             {
                                 dungShape[a - 1, b] = i + 1;
+                                wasPixelCreated = true;
+                                currPixelAmount += 1;
                             }
                         }
                         if (dungShape[a, b+1] == 0)
@@ -101,10 +118,14 @@ public class LevelGeneration : MonoBehaviour
                             if (GetNeighboringRoomsAmount(a, b + 1, dungShape) == 1 && UnityEngine.Random.value < chanceOfBranching)
                             {
                                 dungShape[a, b+1] = i + 1;
+                                wasPixelCreated = true;
+                                currPixelAmount += 1;
                             }
                             else if (GetNeighboringRoomsAmount(a, b+1, dungShape) > 1 && UnityEngine.Random.value < chanceOfClumping)
                             {
                                 dungShape[a, b+1] = i + 1;
+                                wasPixelCreated = true;
+                                currPixelAmount += 1;
                             }
                         }
                         if (dungShape[a, b-1] == 0)
@@ -112,15 +133,39 @@ public class LevelGeneration : MonoBehaviour
                             if (GetNeighboringRoomsAmount(a , b-1, dungShape) == 1 && UnityEngine.Random.value < chanceOfBranching)
                             {
                                 dungShape[a, b-1] = i + 1;
+                                wasPixelCreated = true;
+                                currPixelAmount += 1;
                             }
                             else if (GetNeighboringRoomsAmount(a , b - 1, dungShape) > 1 && UnityEngine.Random.value < chanceOfClumping)
                             {
                                 dungShape[a, b-1] = i + 1;
+                                wasPixelCreated = true;
+                                currPixelAmount += 1;
+                            }
+                        }
+                        //failsafe in case pixel is not created
+                        if (wasPixelCreated == false && currPixelAmount < minPixelAmount)
+                        {
+                            if (dungShape[a + 1, b] == 0)
+                            {
+                                dungShape[a + 1, b] = i + 1;
+                            }
+                            else if (dungShape[a - 1, b] == 0)
+                            {
+                                dungShape[a - 1, b] = i + 1;
+                            }
+                            else if (dungShape[a, b + 1] == 0)
+                            {
+                                dungShape[a, b + 1] = i + 1;
+                            }
+                            else if (dungShape[a, b - 1] == 0)
+                            {
+                                dungShape[a, b - 1] = i + 1;
                             }
                         }
                     
                     }
-                    
+                    ///////////////////////////////////////////////////////
 
                 }
             }
@@ -150,7 +195,7 @@ public class LevelGeneration : MonoBehaviour
                 if (dungShape[i,j] != 0)
                 {
                     GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                    cube.transform.position = new Vector3(i, 0, j);
+                    cube.transform.position = new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom);
                 }
             }
         }
