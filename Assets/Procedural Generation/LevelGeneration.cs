@@ -27,7 +27,11 @@ public class LevelGeneration : MonoBehaviour
 
 
 
-    private int sizeOfRoom = 16;
+    private int sizeOfRoom = 24;
+    public GameObject AllDoorsR;
+    public GameObject OneDoorR;
+    public GameObject ThreeDoorsR;
+    public GameObject ThroughDoorsR;
 
     int GetNeighboringRoomsAmount(int x, int y, int[,] arrayum)
     {
@@ -196,6 +200,8 @@ public class LevelGeneration : MonoBehaviour
                 {
                     GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
                     cube.transform.position = new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom);
+
+                    Instantiate(AllDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
                 }
             }
         }
