@@ -182,7 +182,6 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
-  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -267,18 +266,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &705507996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705507993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +424,7 @@ GameObject:
   m_Layer: 0
   m_Name: LevelGenerator
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -454,10 +441,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DungeonSeed: 651
-  AllDoorsR: {fileID: 919132149155446097, guid: 4db20f4ba54f40a41bda61cf49d6381c, type: 3}
-  OneDoorR: {fileID: 919132149155446097, guid: f31195b73da4a9c469760a8b58f9394e, type: 3}
-  ThreeDoorsR: {fileID: 919132149155446097, guid: b3ef962059b04384ea8685487d02bb0e, type: 3}
-  ThroughDoorsR: {fileID: 919132149155446097, guid: 67c9f56d666806d4190aa6e3033833ef, type: 3}
+  AllDoorsR: {fileID: 2218721975897483874, guid: 7c7a0d7468ab55f4ba30a88545b5d3fd, type: 3}
+  OneDoorR: {fileID: 2480468604209402597, guid: 5407357651d8fce45941a614ea4d3813, type: 3}
+  ThreeDoorsR: {fileID: 4101668688813371538, guid: 070c92aa36295d34491cfb342a467bda, type: 3}
+  ThroughDoorsR: {fileID: 259569430201580165, guid: dc386c5e61d1966469589c658221c32d, type: 3}
+  CornerDoorsR: {fileID: 1106732378613046460, guid: 76495eb44cd0ef94eafde3def0d581a4, type: 3}
 --- !u!4 &2010372871
 Transform:
   m_ObjectHideFlags: 0

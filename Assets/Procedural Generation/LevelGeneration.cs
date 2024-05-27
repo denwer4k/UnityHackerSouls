@@ -6,11 +6,6 @@ using UnityEngine;
 
 public class LevelGeneration : MonoBehaviour
 {
-    //Random.InitState(1);
-    //Debug.Log(Random.value);
-    //Debug.Log(Random.value);
-    //Debug.Log(Random.value);
-    //Debug.Log(Random.value);
     private const int maxSizeX = 20;
     private const int maxSizeY = 20;
     int[,] dungShape = new int[maxSizeX, maxSizeY];
@@ -32,6 +27,7 @@ public class LevelGeneration : MonoBehaviour
     public GameObject OneDoorR;
     public GameObject ThreeDoorsR;
     public GameObject ThroughDoorsR;
+    public GameObject CornerDoorsR;
 
     int GetNeighboringRoomsAmount(int x, int y, int[,] arrayum)
     {
@@ -198,10 +194,46 @@ public class LevelGeneration : MonoBehaviour
             {
                 if (dungShape[i,j] != 0)
                 {
-                    GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                    cube.transform.position = new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom);
+                    if (GetNeighboringRoomsAmount(i, j, dungShape) == 4)
+                    {
+                        Instantiate(AllDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
+                    }
 
-                    Instantiate(AllDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
+                    if (GetNeighboringRoomsAmount(i, j, dungShape) == 1)
+                    {
+                        if (dungShape[i+1, j] != 0) Instantiate(OneDoorR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 90));
+                        if (dungShape[i - 1, j] != 0) Instantiate(OneDoorR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, -90));
+                        if (dungShape[i, j+1] != 0) Instantiate(OneDoorR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
+                        if (dungShape[i, j - 1] != 0) Instantiate(OneDoorR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 180));
+                        //Instantiate(AllDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
+                    }
+                    if (GetNeighboringRoomsAmount(i, j, dungShape) == 3)
+                    {
+                        if (dungShape[i + 1, j] == 0) Instantiate(ThreeDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, -90));
+                        if (dungShape[i - 1, j] == 0) Instantiate(ThreeDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 90));
+                        if (dungShape[i, j + 1] == 0) Instantiate(ThreeDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 180));
+                        if (dungShape[i, j - 1] == 0) Instantiate(ThreeDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
+                    }
+                    if (GetNeighboringRoomsAmount(i, j, dungShape) == 2)
+                    {
+                        //if it is like a tunnel
+                        if (dungShape[i + 1, j] != 0 && dungShape[i - 1, j] != 0 && dungShape[i, j + 1] == 0 && dungShape[i, j - 1] == 0)
+                        {
+                            Instantiate(ThroughDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 90));
+                        }
+                        if (dungShape[i, j + 1] != 0 && dungShape[i, j - 1] != 0 && dungShape[i + 1, j] == 0 && dungShape[i - 1, j] == 0)
+                        {
+                            Instantiate(ThroughDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
+                        }
+
+                        //if it is some corner doors
+                        if (dungShape[i + 1, j] != 0 && dungShape[i, j+1] != 0) Instantiate(CornerDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
+
+                        if (dungShape[i + 1, j] != 0 && dungShape[i, j - 1] != 0) Instantiate(CornerDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 90));
+                        if (dungShape[i - 1, j] != 0 && dungShape[i, j + 1] != 0) Instantiate(CornerDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, -90));
+                        if (dungShape[i - 1, j] != 0 && dungShape[i, j - 1] != 0) Instantiate(CornerDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 180));
+                    }
+
                 }
             }
         }

@@ -15,7 +15,7 @@ C:/Users/timas/Desktop/jAMgAME/GithubRepository/UnityHackerSouls
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61703
+63423
 Successfully changed project path to: C:/Users/timas/Desktop/jAMgAME/GithubRepository/UnityHackerSouls
 C:/Users/timas/Desktop/jAMgAME/GithubRepository/UnityHackerSouls
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/timas/Desktop/jAMgAME/GithubRepository/UnityHackerSouls
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20000] Host "[IP] 192.168.1.127 [Port] 0 [Flags] 2 [Guid] 509047425 [EditorId] 509047425 [Version] 1048832 [Id] WindowsEditor(7,TSdevice) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10792] Host "[IP] 192.168.1.127 [Port] 0 [Flags] 2 [Guid] 4035492399 [EditorId] 4035492399 [Version] 1048832 [Id] WindowsEditor(7,TSdevice) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20000] Host "[IP] 192.168.1.127 [Port] 0 [Flags] 2 [Guid] 509047425 [EditorId] 509047425 [Version] 1048832 [Id] WindowsEditor(7,TSdevice) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10792] Host "[IP] 192.168.1.127 [Port] 0 [Flags] 2 [Guid] 4035492399 [EditorId] 4035492399 [Version] 1048832 [Id] WindowsEditor(7,TSdevice) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 65.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.38f1 (7a2fa5d8d101)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -68,37 +68,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.005492 seconds.
+Registered in 0.005472 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.531 seconds
+- Completed reload, in  0.537 seconds
 Domain Reload Profiling:
-	ReloadAssembly (532ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (538ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (366ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (369ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (83ms)
+			SetupTypeCache (84ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (225ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
+				RefreshPlugins (63ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (112ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
@@ -108,53 +108,53 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004678 seconds.
+Registered in 0.004847 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.355 seconds
+- Completed reload, in  1.175 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1356ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1175ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1103ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (742ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (663ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (630ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (566ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 3528.
-Memory consumption went from 114.6 MB to 112.8 MB.
-Total: 3.485600 ms (FindLiveObjects: 0.255300 ms CreateObjectMapping: 0.095600 ms MarkObjects: 2.561900 ms  DeleteObjects: 0.572000 ms)
+Memory consumption went from 114.5 MB to 112.8 MB.
+Total: 3.351300 ms (FindLiveObjects: 0.312900 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.555400 ms  DeleteObjects: 0.367600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,41 +171,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 542954.843326 seconds.
-  path: Assets/Materials/BloomTest.mat
-  artifactKey: Guid(04cc73cf1d6750549a241c7227b40b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 594436.948044 seconds.
+  path: Assets/Procedural Generation/RoomsModels/Materials/StoneWall/StoneWall.mat
+  artifactKey: Guid(c3a0b883b7b5dcc4cbe60269d093af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/BloomTest.mat using Guid(04cc73cf1d6750549a241c7227b40b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbae4ed35b510e0ea479f190b470134') in 0.151935 seconds 
+Start importing Assets/Procedural Generation/RoomsModels/Materials/StoneWall/StoneWall.mat using Guid(c3a0b883b7b5dcc4cbe60269d093af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01efd44fcf57df35278ba991779e772') in 0.115357 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 21.100335 seconds.
-  path: Assets/Procedural Generation/RoomsModels
-  artifactKey: Guid(16d4ef9a1df595243b71b3bc3170af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 18.736950 seconds.
+  path: Assets/Procedural Generation/RoomsModels/Adoors.fbx
+  artifactKey: Guid(0dcfdf71ef1fac74a8a73b33454cc077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Procedural Generation/RoomsModels using Guid(16d4ef9a1df595243b71b3bc3170af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5d6aeed5243859d65c77e11b6d25cb') in 0.007551 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Procedural Generation/RoomsModels/Adoors.fbx using Guid(0dcfdf71ef1fac74a8a73b33454cc077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bde4d979c5af81394950e94433d4be') in 0.054914 seconds 
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 5.937482 seconds.
-  path: Assets/Procedural Generation/RoomsModels/TestForMats.glb
-  artifactKey: Guid(35aed0da6a9e3c24fbd192e8b0725305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000029 seconds.
+  path: Assets/Procedural Generation/RoomsModels/OneDoor.fbx
+  artifactKey: Guid(df5c656bfa88cab41857dc967f4db53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Procedural Generation/RoomsModels/TestForMats.glb using Guid(35aed0da6a9e3c24fbd192e8b0725305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38977ff09d7ade6dd8cb13fc01bbdd0e') in 0.010328 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Procedural Generation/RoomsModels/OneDoor.fbx using Guid(df5c656bfa88cab41857dc967f4db53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e849a3cb4857666abcee4ec504429d') in 0.032107 seconds 
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 94.705069 seconds.
-  path: Assets/Procedural Generation/RoomsModels/untitled.gltf
-  artifactKey: Guid(983f8f20d8d29d242a8b87bcbd26f931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000033 seconds.
+  path: Assets/Procedural Generation/RoomsModels/Thdoors.fbx
+  artifactKey: Guid(0cc713ceba2becb4388d64dc0a44c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Procedural Generation/RoomsModels/untitled.gltf using Guid(983f8f20d8d29d242a8b87bcbd26f931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3842ec7255e57638346243c646ac663') in 0.010164 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Procedural Generation/RoomsModels/Thdoors.fbx using Guid(0cc713ceba2becb4388d64dc0a44c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1919113e575b3b6d52e5d9afa6d516d4') in 0.035874 seconds 
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 22.474727 seconds.
-  path: Assets/Procedural Generation/RoomsModels/untitled.fbx
-  artifactKey: Guid(cf601dba1cbd94146b6dae16894d47e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000026 seconds.
+  path: Assets/Procedural Generation/RoomsModels/ForkDoors.fbx
+  artifactKey: Guid(63311aa8bb705f146a0ff8e8fffef078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Procedural Generation/RoomsModels/untitled.fbx using Guid(cf601dba1cbd94146b6dae16894d47e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59054048a8fe3a5adf6531a3684395ac') in 0.049786 seconds 
-Number of asset objects unloaded after import = 9
+Start importing Assets/Procedural Generation/RoomsModels/ForkDoors.fbx using Guid(63311aa8bb705f146a0ff8e8fffef078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681c4f124eeb151412d7e94f738a4343') in 0.033725 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 51.124426 seconds.
+  path: Assets/Procedural Generation/RoomsModels/Materials/StoneWall/stone_wall_04_arm_1k.jpg
+  artifactKey: Guid(3f31b73a16c7acb47821988578aa3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Procedural Generation/RoomsModels/Materials/StoneWall/stone_wall_04_arm_1k.jpg using Guid(3f31b73a16c7acb47821988578aa3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b6ac6a26cdf95e85793f82e720d041') in 0.034526 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Procedural Generation/RoomsModels/Materials/StoneWall/stone_wall_04_nor_dx_1k.jpg
+  artifactKey: Guid(21dcbdff28b851c48ac054aa6fd92e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Procedural Generation/RoomsModels/Materials/StoneWall/stone_wall_04_nor_dx_1k.jpg using Guid(21dcbdff28b851c48ac054aa6fd92e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6293d38222fb6d2f6cf3e2e112b1a825') in 0.018224 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 35.404664 seconds.
+  path: Assets/Procedural Generation/RoomsModels/Materials/RubberTiles/rubber_tiles_arm_1k.jpg
+  artifactKey: Guid(027302a2d2e822f479b6d1805b6ab49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Procedural Generation/RoomsModels/Materials/RubberTiles/rubber_tiles_arm_1k.jpg using Guid(027302a2d2e822f479b6d1805b6ab49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a899d8cdd0a27393356f61dc05b4743') in 0.021546 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Procedural Generation/RoomsModels/Materials/RubberTiles/rubber_tiles_rough_1k.jpg
+  artifactKey: Guid(c5953ed4a46b8104d95fc92d8c71906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Procedural Generation/RoomsModels/Materials/RubberTiles/rubber_tiles_rough_1k.jpg using Guid(c5953ed4a46b8104d95fc92d8c71906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de743a2b9b5c2a6a3760ca7316e16475') in 0.015122 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
