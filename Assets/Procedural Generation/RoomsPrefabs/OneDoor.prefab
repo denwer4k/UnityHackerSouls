@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2200129589514487802}
   - component: {fileID: 4137850922359763760}
   - component: {fileID: 3363358636996046777}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OneDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}

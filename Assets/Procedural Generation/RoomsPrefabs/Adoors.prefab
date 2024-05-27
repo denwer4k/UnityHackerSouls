@@ -38508,7 +38508,7 @@ GameObject:
   - component: {fileID: 2463030120844607357}
   - component: {fileID: 417294974641982391}
   - component: {fileID: 1300152914920168245}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Adoors
   m_TagString: Untagged
   m_Icon: {fileID: 0}

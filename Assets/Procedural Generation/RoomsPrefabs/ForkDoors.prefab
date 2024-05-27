@@ -38508,7 +38508,7 @@ GameObject:
   - component: {fileID: 290489636385416589}
   - component: {fileID: 2588709421810946375}
   - component: {fileID: 3759771357812690368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ForkDoors
   m_TagString: Untagged
   m_Icon: {fileID: 0}

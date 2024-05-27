@@ -38508,7 +38508,7 @@ GameObject:
   - component: {fileID: 3728958526129179043}
   - component: {fileID: 1466796117508816233}
   - component: {fileID: 259677079792876198}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cdoors
   m_TagString: Untagged
   m_Icon: {fileID: 0}

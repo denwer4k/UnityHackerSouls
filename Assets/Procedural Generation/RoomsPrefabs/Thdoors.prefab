@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4575136312155729818}
   - component: {fileID: 1772959706836933456}
   - component: {fileID: 4935884698738804774}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Thdoors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
