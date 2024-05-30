@@ -27,6 +27,7 @@ public class DdosEnemyScript : MonoBehaviour
 
     private Vector3 spawnPosition;
 
+    private Vector3 SpawnPosition;
 
     private void Start()
     {
@@ -34,6 +35,8 @@ public class DdosEnemyScript : MonoBehaviour
         controller = GetComponent<CharacterController>();
         playerPosition = GameObject.FindWithTag("Player").transform;
 
+        SpawnPosition = transform.position;
+        Debug.Log(SpawnPosition);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -59,6 +62,7 @@ public class DdosEnemyScript : MonoBehaviour
     }
 
 
+    // All the movement is here, dont look at the function name
     public void Attacks()
     {
         Vector3 direction = playerPosition.position - transform.position;
@@ -66,6 +70,7 @@ public class DdosEnemyScript : MonoBehaviour
         transform.rotation = Quaternion.LookRotation(direction);
         transform.position = Vector3.MoveTowards(transform.position, new Vector3(playerPosition.position.x, transform.position.y, playerPosition.position.z), moveSpeed * Time.deltaTime);
         
+
     }
 
     IEnumerator Attack1()

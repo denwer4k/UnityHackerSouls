@@ -29,6 +29,17 @@ public class LevelGeneration : MonoBehaviour
     public GameObject ThroughDoorsR;
     public GameObject CornerDoorsR;
 
+    public GameObject DdosEnemy;
+    public GameObject SOminiboss;
+    public GameObject RCminiboss;
+    public GameObject CIminiboss;
+
+    //spawn points for enemies
+    private Vector3 SpwnP1 = new Vector3(-8, 0, -8);
+    private Vector3 SpwnP2 = new Vector3(8, 0, -8);
+    private Vector3 SpwnP3 = new Vector3(-8, 0, 8);
+    private Vector3 SpwnP4 = new Vector3(8, 0, 8);
+
     int GetNeighboringRoomsAmount(int x, int y, int[,] arrayum)
     {
         int ret = 0;
@@ -197,6 +208,8 @@ public class LevelGeneration : MonoBehaviour
                     if (GetNeighboringRoomsAmount(i, j, dungShape) == 4)
                     {
                         Instantiate(AllDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
+
+                        Instantiate(DdosEnemy, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 10, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
                     }
 
                     if (GetNeighboringRoomsAmount(i, j, dungShape) == 1)
@@ -234,6 +247,15 @@ public class LevelGeneration : MonoBehaviour
                         if (dungShape[i - 1, j] != 0 && dungShape[i, j - 1] != 0) Instantiate(CornerDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 180));
                     }
 
+                }
+
+                //Spawn da enemies
+                if (dungShape[i, j] != 0)
+                {
+                    Instantiate(DdosEnemy, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom) + SpwnP1, Quaternion.Euler(0, 0, 0));
+                    Instantiate(DdosEnemy, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom) + SpwnP2, Quaternion.Euler(0, 0, 0));
+                    Instantiate(DdosEnemy, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom) + SpwnP3, Quaternion.Euler(0, 0, 0));
+                    Instantiate(DdosEnemy, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom) + SpwnP4, Quaternion.Euler(0, 0, 0));
                 }
             }
         }

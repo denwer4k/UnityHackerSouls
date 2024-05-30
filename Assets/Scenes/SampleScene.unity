@@ -565,6 +565,7 @@ MonoBehaviour:
   ThreeDoorsR: {fileID: 4101668688813371538, guid: 070c92aa36295d34491cfb342a467bda, type: 3}
   ThroughDoorsR: {fileID: 259569430201580165, guid: dc386c5e61d1966469589c658221c32d, type: 3}
   CornerDoorsR: {fileID: 1106732378613046460, guid: 76495eb44cd0ef94eafde3def0d581a4, type: 3}
+  DdosEnemy: {fileID: 7345487189012912450, guid: 85b7e8e405ffe2443a733306dbaf7b27, type: 3}
 --- !u!4 &2010372871
 Transform:
   m_ObjectHideFlags: 0
