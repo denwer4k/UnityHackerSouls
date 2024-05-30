@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovemnt : MonoBehaviour
 {
@@ -37,6 +39,9 @@ public class PlayerMovemnt : MonoBehaviour
 
     private float x;
     private float z;
+
+    // Compass image in UI
+    public Image Compass;
 
     IEnumerator goDash()
     {
@@ -141,8 +146,9 @@ public class PlayerMovemnt : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        
 
+        //Compass code
+        Compass.transform.localEulerAngles = new Vector3(0, 0, transform.eulerAngles.y);
     }
 
     private void FixedUpdate()

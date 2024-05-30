@@ -12,7 +12,7 @@ public class BasicEnemyMovement : MonoBehaviour
 
     [SerializeField] GameObject strikeTrigger;
 
-    public Transform playerPosition;
+    private Transform playerPosition;
 
     [SerializeField] private CharacterController controller;
 
