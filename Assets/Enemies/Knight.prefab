@@ -929,7 +929,7 @@ GameObject:
   - component: {fileID: 6028965812832496465}
   - component: {fileID: 4404858773408990763}
   - component: {fileID: 1644241265187639018}
-  - component: {fileID: 1644241265187639025}
+  - component: {fileID: 4448864198449436129}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -994,7 +994,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: -1.02, z: 0}
---- !u!114 &1644241265187639025
+--- !u!114 &4448864198449436129
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1009,13 +1009,12 @@ MonoBehaviour:
   isCheckingPlayer: 0
   isAttacking: 0
   strikeTrigger: {fileID: 1644241266376400153}
-  playerPosition: {fileID: 0}
-  controller: {fileID: 0}
-  animations: {fileID: 0}
-  maxDistance: 20
-  moveSpeed: 6
+  controller: {fileID: 1644241265187639018}
+  animations: {fileID: 4404858773408990763}
+  maxDistance: 1000
+  moveSpeed: 2
   gravity: 9.81
-  animationAttackTime: 1
+  animationAttackTime: 0.792
 --- !u!1 &7540632503123786055
 GameObject:
   m_ObjectHideFlags: 0
