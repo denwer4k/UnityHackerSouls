@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scropts\PlayerMovemnt.cs" />
     <Compile Include="Assets\Scropts\BasicEnemyMovement.cs" />
     <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
+    <Compile Include="Assets\EnemiesPrefabs\RCEnemyScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -341,6 +341,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/EnemiesPrefabs/DdosEnemyScript.cs"
+"Assets/EnemiesPrefabs/RCEnemyScript.cs"
 "Assets/Procedural Generation/LevelGeneration.cs"
 "Assets/Scropts/BasicEnemyMovement.cs"
 "Assets/Scropts/MouseLock.cs"
