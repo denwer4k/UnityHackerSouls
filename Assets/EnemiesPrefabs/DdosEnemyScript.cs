@@ -110,8 +110,8 @@ public class DdosEnemyScript : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (isCheckingPlayer == true && ((int)transform.position.x + 12) / 24 == ((int)playerPosition.position.x + 12) / 24
-            && ((int)transform.position.z + 12) / 24 == ((int)playerPosition.position.z + 12) / 24) //Here is chack for attacking
+        if (isCheckingPlayer == true && (((int)transform.position.x + 3612) / 24 == ((int)playerPosition.position.x + 3612) / 24
+            && ((int)transform.position.z  + 3612) / 24 == ((int)playerPosition.position.z  + 3612) / 24)) //Here is chack for attacking
         {
             Attacks();
             if (animations.GetBool("Stay") == true)
