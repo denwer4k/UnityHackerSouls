@@ -532,6 +532,10 @@ PrefabInstance:
       propertyPath: Compass
       value: 
       objectReference: {fileID: 393524424}
+    - target: {fileID: 5786913459076428065, guid: 29587f37f87cfb442bee458edcaf6cce, type: 3}
+      propertyPath: jumpHeight
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5786913459076428066, guid: 29587f37f87cfb442bee458edcaf6cce, type: 3}
       propertyPath: m_Name
       value: First Person Player

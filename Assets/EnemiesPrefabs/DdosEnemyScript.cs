@@ -25,10 +25,9 @@ public class DdosEnemyScript : MonoBehaviour
     [SerializeField] private float gravity = 9.81f;
     [SerializeField] private float animationAttackTime = 0.792f;
 
-    private Vector3 spawnPosition;
-
     private Vector3 SpawnPosition;
 
+    
     private void Start()
     {
         animations = GetComponent<Animator>();
@@ -36,7 +35,8 @@ public class DdosEnemyScript : MonoBehaviour
         playerPosition = GameObject.FindWithTag("Player").transform;
 
         SpawnPosition = transform.position;
-        Debug.Log(SpawnPosition);
+
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -73,6 +73,22 @@ public class DdosEnemyScript : MonoBehaviour
 
 
     }
+    public void NotAttacking()
+    {
+        if (Mathf.Abs(transform.position.x - SpawnPosition.x) > 0.1 && Mathf.Abs(transform.position.z - SpawnPosition.x) > 0.1)
+        {
+            if (animations.GetBool("Stay") == true)
+                animations.Play("DdosRig|Run");
+            animations.SetBool("Running", true);
+            animations.SetBool("Stay", false);
+            animations.SetBool("Attack", false);
+            Vector3 direction = SpawnPosition - transform.position;
+            direction.y = 0;
+            transform.rotation = Quaternion.LookRotation(direction);
+            //transform.position = Vector3.MoveTowards(transform.position, new Vector3(playerPosition.position.x, transform.position.y, playerPosition.position.z), moveSpeed * Time.deltaTime);
+            controller.Move(transform.forward * Time.deltaTime * moveSpeed);
+        }
+    }
 
     IEnumerator Attack1()
     {
@@ -94,7 +110,8 @@ public class DdosEnemyScript : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (isCheckingPlayer == true)
+        if (isCheckingPlayer == true && ((int)transform.position.x + 12) / 24 == ((int)playerPosition.position.x + 12) / 24
+            && ((int)transform.position.z + 12) / 24 == ((int)playerPosition.position.z + 12) / 24) //Here is chack for attacking
         {
             Attacks();
             if (animations.GetBool("Stay") == true)
@@ -116,6 +133,7 @@ public class DdosEnemyScript : MonoBehaviour
         }
         else
         {
+            NotAttacking();
             animations.SetBool("Running", false);
             animations.SetBool("Stay", true);
             animations.SetBool("Attack", false);
