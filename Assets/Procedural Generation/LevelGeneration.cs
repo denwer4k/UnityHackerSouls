@@ -28,6 +28,8 @@ public class LevelGeneration : MonoBehaviour
     public GameObject ThreeDoorsR;
     public GameObject ThroughDoorsR;
     public GameObject CornerDoorsR;
+    public GameObject DoorPrefab;
+
 
     public GameObject DdosEnemy;
     public GameObject SOminiboss;
@@ -248,6 +250,12 @@ public class LevelGeneration : MonoBehaviour
                     }
 
                 }
+
+                //Spawn em DOORS!
+                Instantiate(DoorPrefab, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom) + new Vector3(12, -8, 0), Quaternion.Euler(0, 0, 0));
+                Instantiate(DoorPrefab, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom) + new Vector3(0, -8, 12), Quaternion.Euler(0, 90, 0));
+
+
 
                 //Spawn da enemies
                 if (dungShape[i, j] != 0)

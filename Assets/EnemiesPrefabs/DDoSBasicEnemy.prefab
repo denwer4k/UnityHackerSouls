@@ -335,6 +335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DDoSInstanceModel
       objectReference: {fileID: 0}
+    - target: {fileID: 8153751465811491479, guid: 0414e2c7f1889db4fba140031d27d1ef, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9193d5eb652ec384792406c26053f9be, type: 2}
     m_RemovedComponents:
     - {fileID: -6057140222963153312, guid: 0414e2c7f1889db4fba140031d27d1ef, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0414e2c7f1889db4fba140031d27d1ef, type: 3}

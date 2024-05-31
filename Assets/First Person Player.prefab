@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 5786913459076428094}
   - component: {fileID: 5786913459076428095}
   - component: {fileID: 5786913459076428092}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: First Person Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -940,8 +940,9 @@ MonoBehaviour:
   groundDistance: 0.5
   groundMask:
     serializedVersion: 2
-    m_Bits: 640
+    m_Bits: 128
   isSlided: 0
+  Compass: {fileID: 0}
 --- !u!135 &5786913459076428094
 SphereCollider:
   m_ObjectHideFlags: 0
