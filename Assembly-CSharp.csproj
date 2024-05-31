@@ -59,12 +59,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scropts\MouseLock.cs" />
+    <Compile Include="Assets\EnemiesPrefabs\RCEnemyScript.cs" />
     <Compile Include="Assets\Procedural Generation\LevelGeneration.cs" />
     <Compile Include="Assets\Scropts\PlayerHealth.cs" />
     <Compile Include="Assets\Scropts\PlayerMovemnt.cs" />
     <Compile Include="Assets\Scropts\BasicEnemyMovement.cs" />
     <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
-    <Compile Include="Assets\EnemiesPrefabs\RCEnemyScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
