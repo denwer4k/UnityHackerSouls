@@ -277,7 +277,7 @@ MonoBehaviour:
   controller: {fileID: 1644241265187639018}
   animations: {fileID: 0}
   maxDistance: 1000
-  moveSpeed: 10
+  moveSpeed: 2
   gravity: 9.81
   animationAttackTime: 0.792
 --- !u!1001 &5136782368069524376
