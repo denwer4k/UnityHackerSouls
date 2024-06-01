@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scropts\MouseLock.cs" />
+    <Compile Include="Assets\Scropts\EnemyHealthBar.cs" />
     <Compile Include="Assets\EnemiesPrefabs\RCEnemyScript.cs" />
     <Compile Include="Assets\Scropts\ProjectileMover.cs" />
     <Compile Include="Assets\Procedural Generation\LevelGeneration.cs" />
@@ -68,7 +69,8 @@
     <Compile Include="Assets\Scropts\EnemyFire.cs" />
     <Compile Include="Assets\Scropts\Fire.cs" />
     <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
-    <Compile Include="Assets\Scropts\EnemyHealthBar.cs" />
+    <Compile Include="Assets\Game Objects LOL\ShieldScript.cs" />
+    <Compile Include="Assets\EnemiesPrefabs\CIEnemyScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

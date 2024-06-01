@@ -37,7 +37,7 @@ public class Fire : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Input.GetMouseButtonDown(0) && isBulletMove)
+        if (Input.GetMouseButtonDown(1) && isBulletMove)
             StartCoroutine(FireOn());
     }
 
