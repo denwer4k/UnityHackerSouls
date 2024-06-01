@@ -344,9 +344,13 @@
 "Assets/EnemiesPrefabs/RCEnemyScript.cs"
 "Assets/Procedural Generation/LevelGeneration.cs"
 "Assets/Scropts/BasicEnemyMovement.cs"
+"Assets/Scropts/EnemyFire.cs"
+"Assets/Scropts/EnemyHealthBar.cs"
+"Assets/Scropts/Fire.cs"
 "Assets/Scropts/MouseLock.cs"
 "Assets/Scropts/PlayerHealth.cs"
 "Assets/Scropts/PlayerMovemnt.cs"
+"Assets/Scropts/ProjectileMover.cs"
 -langversion:9.0
 /deterministic
 /optimize+
