@@ -220,7 +220,6 @@ public class LevelGeneration : MonoBehaviour
                         if (dungShape[i - 1, j] != 0) Instantiate(OneDoorR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, -90));
                         if (dungShape[i, j+1] != 0) Instantiate(OneDoorR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
                         if (dungShape[i, j - 1] != 0) Instantiate(OneDoorR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 180));
-                        //Instantiate(AllDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
                     }
                     if (GetNeighboringRoomsAmount(i, j, dungShape) == 3)
                     {
