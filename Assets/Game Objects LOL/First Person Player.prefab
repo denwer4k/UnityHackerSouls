@@ -1,50 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &924383634420827078
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 212783376470709633}
-  - component: {fileID: 3228363654179331407}
-  m_Layer: 0
-  m_Name: Hit
-  m_TagString: PlayerBullet
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &212783376470709633
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924383634420827078}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.63, z: 0.67}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1984652890343162153}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3228363654179331407
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924383634420827078}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.40496826, y: 0.7305261, z: 1.4579735}
-  m_Center: {x: 0.29751587, y: 0.13473696, z: 0.2585354}
 --- !u!1 &1984652888704916359
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,15 +395,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationName: Armature|PojectileThrow
-  animationNameSword: Armature|Attack1
   projectile: {fileID: 6467506733130720274, guid: efae814c135193343a19ed999e261ebe, type: 3}
   spawnPos: {fileID: 1984652890765594542}
-  hitTrigger: {fileID: 924383634420827078}
   timeOfRecharge: 1.2
   timeOfDestroy: 8
-  timeOfSwordHitRecharge: 0.6
-  fireClip: {fileID: 0}
-  strike: {fileID: 0}
+  Sounds: {fileID: 0}
+  FireClip: {fileID: 8300000, guid: dde0b8f5453948a4a8cf599909c9b3da, type: 3}
 --- !u!82 &1984652888813231544
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1721,7 +1673,6 @@ Transform:
   m_Children:
   - {fileID: 1984652888813231547}
   - {fileID: 1984652890765594540}
-  - {fileID: 212783376470709633}
   m_Father: {fileID: 1984652888758021237}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

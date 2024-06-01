@@ -68,6 +68,7 @@ public class DdosEnemyScript : MonoBehaviour
         Vector3 direction = playerPosition.position - transform.position;
         direction.y = 0; 
         transform.rotation = Quaternion.LookRotation(direction);
+        //transform.position = Vector3.MoveTowards(transform.position, new Vector3(playerPosition.position.x, transform.position.y, playerPosition.position.z), moveSpeed * Time.deltaTime);
         controller.Move(transform.forward * Time.deltaTime * moveSpeed);
 
 
@@ -84,6 +85,7 @@ public class DdosEnemyScript : MonoBehaviour
             Vector3 direction = SpawnPosition - transform.position;
             direction.y = 0;
             transform.rotation = Quaternion.LookRotation(direction);
+            //transform.position = Vector3.MoveTowards(transform.position, new Vector3(playerPosition.position.x, transform.position.y, playerPosition.position.z), moveSpeed * Time.deltaTime);
             controller.Move(transform.forward * Time.deltaTime * moveSpeed);
         }
     }
@@ -91,9 +93,8 @@ public class DdosEnemyScript : MonoBehaviour
     IEnumerator Attack1()
     {
         isAttack1 = true;
-        yield return new WaitForSeconds(0.6f); //это изменилось
         strikeTrigger.SetActive(true);
-        yield return new WaitForSeconds(animationAttackTime - 0.6f);   //это изменилось
+        yield return new WaitForSeconds(animationAttackTime);
         strikeTrigger.SetActive(false);
         isAttack1 = false;
     }
