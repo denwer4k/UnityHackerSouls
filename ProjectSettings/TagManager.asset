@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EnemyWeapon
   - Aim
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - GroundLayer
   - DoorsLayer
   - PlayerLayer
-  - 
-  - 
+  - EnemyFire
+  - Enemy
   - 
   - 
   - 
