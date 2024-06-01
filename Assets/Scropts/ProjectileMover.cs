@@ -10,7 +10,7 @@ public class ProjectileMover : MonoBehaviour
     private void Start()
     {
         RB = GetComponent<Rigidbody>();
-        RB.AddRelativeForce(Power, 0f, 0f);
+        RB.AddRelativeForce(Power, 0f, 0f );
     }
 
 }
