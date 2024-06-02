@@ -9,6 +9,7 @@ TagManager:
   - PlayerBullet
   - RacingConditionTag
   - StackOverflowTag
+  - TheDoor
   layers:
   - Default
   - TransparentFX
@@ -22,8 +23,8 @@ TagManager:
   - PlayerLayer
   - PlatesBullets
   - ShieldLayer
-  - 
-  - 
+  - EnemyBullet
+  - StackOverFlow
   - 
   - 
   - 
