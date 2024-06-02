@@ -67,7 +67,7 @@
     <Compile Include="Assets\Game Objects LOL\ShieldScript.cs" />
     <Compile Include="Assets\Scropts\PlayerScripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scropts\PlayerScripts\PlayerMovemnt.cs" />
-    <Compile Include="Assets\Scropts\BasicEnemyMovement.cs" />
+    <Compile Include="Assets\EnemiesPrefabs\BasicEnemyMovement.cs" />
     <Compile Include="Assets\Game Objects LOL\MedkitScript.cs" />
     <Compile Include="Assets\Scropts\PlayerScripts\DoorOfTheEnd.cs" />
     <Compile Include="Assets\Scropts\EnemyFire.cs" />

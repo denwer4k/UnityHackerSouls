@@ -29,7 +29,6 @@ public class CIEnemyScript : MonoBehaviour
         CanSpawn = true;
     }
 
-    // Start is called before the first frame update
     void Awake()
     {
         GameObject.Find("HackBar").GetComponent<Slider>().maxValue = 10;

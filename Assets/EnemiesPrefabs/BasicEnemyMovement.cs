@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class BasicEnemyMovement : MonoBehaviour
 {
-    public bool isCheckingPlayer = false;
-    public bool isAttacking = false;
-
-    private bool isAttack1 = false;
-    private bool isFindPlayer = false;
+    private bool isAttacking = false;
+    private bool isAttack = false;
+    private bool isSeePlayer = false;
 
     [SerializeField] GameObject strikeTrigger;
 
@@ -20,12 +18,9 @@ public class BasicEnemyMovement : MonoBehaviour
 
     [SerializeField] Animator animations;
 
-    [SerializeField] private float maxDistance = 1000f;
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float gravity = 9.81f;
     [SerializeField] private float animationAttackTime = 0.792f;
-
-    private Vector3 spawnPosition;
 
 
     private void Start()
@@ -33,48 +28,48 @@ public class BasicEnemyMovement : MonoBehaviour
         animations = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
         playerPosition = GameObject.FindWithTag("Player").transform;
-
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-            isCheckingPlayer = true;
         if (other.CompareTag("Aim"))
+            isSeePlayer = true;
+        if (other.CompareTag("Player"))
         {
             isAttacking = true;
-            isCheckingPlayer = false;
+            isSeePlayer = false;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
-            isCheckingPlayer = false;
         if (other.CompareTag("Aim"))
+            isSeePlayer = false;
+        if (other.CompareTag("Player"))
         {
+            isSeePlayer = true;
             isAttacking = false;
-            isCheckingPlayer = true;
         }
     }
 
-
-    public void Attacks()
+    public void MoveToPlayer()
     {
         Vector3 direction = playerPosition.position - transform.position;
         direction.y = 0; 
         transform.rotation = Quaternion.LookRotation(direction);
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(playerPosition.position.x, transform.position.y, playerPosition.position.z), moveSpeed * Time.deltaTime);
-        
+        controller.Move(transform.forward * Time.deltaTime * moveSpeed);
+
     }
 
-    IEnumerator Attack1()
+    IEnumerator Attack()
     {
-        isAttack1 = true;
+        isAttack = true;
+        animations.Play("KnightRig|Attack");
+        yield return new WaitForSeconds(0.7f);
         strikeTrigger.SetActive(true);
-        yield return new WaitForSeconds(animationAttackTime);
+        yield return new WaitForSeconds(animationAttackTime - 0.7f);
         strikeTrigger.SetActive(false);
-        isAttack1 = false;
+        isAttack = false;
     }
 
     private void Update()
@@ -88,26 +83,26 @@ public class BasicEnemyMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (isCheckingPlayer == true)
+        if (isSeePlayer == true)
         {
-            Attacks();
+            MoveToPlayer();
             if (animations.GetBool("isStay") == true)
                 animations.Play("KnightRig|RunCycle");
             animations.SetBool("isRunning", true);
             animations.SetBool("isStay", false);
             animations.SetBool("Attack1", false);
         }
-        else if(isAttacking == true)
+        else if (isAttacking == true)
         {
-            if (isAttack1 == false)
-                StartCoroutine("Attack1");
+            if (isAttack == false)
+                StartCoroutine("Attack");
             animations.SetBool("isRunning", false);
             animations.SetBool("isStay", false);
-            animations.SetBool("Attack1", true);
             Vector3 direction = playerPosition.position - transform.position;
             direction.y = 0;
             transform.rotation = Quaternion.LookRotation(direction);
         }
+
         else
         {
             animations.SetBool("isRunning", false);

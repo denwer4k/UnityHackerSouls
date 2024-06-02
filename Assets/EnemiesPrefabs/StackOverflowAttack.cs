@@ -56,6 +56,7 @@ public class StackOverflowAttack : MonoBehaviour
     IEnumerator FireOn()
     {
         isAttack = true;
+        animations.Play("Armature|Throw");
         Vector3 BulPos = bulletSpawnPosition.transform.position;
         Quaternion rotterdam = bulletSpawnPosition.transform.rotation;
         GameObject spawnBullet = Instantiate(projectile, BulPos, rotterdam);
@@ -80,9 +81,7 @@ public class StackOverflowAttack : MonoBehaviour
         {
             if (animations.GetBool("Stay") == true)
                 animations.Play("DdosRig|Run");
-            animations.SetBool("Running", true);
             animations.SetBool("Stay", false);
-            animations.SetBool("Attack", false);
             Vector3 direction = SpawnPosition - transform.position;
             direction.y = 0;
             transform.rotation = Quaternion.LookRotation(direction);
@@ -119,8 +118,7 @@ public class StackOverflowAttack : MonoBehaviour
             if (isAttack == false)
                 StartCoroutine(FireOn());
             animations.SetBool("Running", false);
-            animations.SetBool("Stay", false);
-            animations.SetBool("Attack", true);
+            animations.SetBool("Stay", true);
             Vector3 direction = playerPosition.position - transform.position;
             direction.y = 0;
             transform.rotation = Quaternion.LookRotation(direction);
