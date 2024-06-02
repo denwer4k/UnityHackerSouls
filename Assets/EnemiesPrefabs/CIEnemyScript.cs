@@ -25,7 +25,7 @@ public class CIEnemyScript : MonoBehaviour
         Instantiate(WhatToSpawn, Spawner2.transform.position, Spawner2.transform.rotation);
         Instantiate(WhatToSpawn, Spawner3.transform.position, Spawner3.transform.rotation);
         Instantiate(WhatToSpawn, Spawner4.transform.position, Spawner4.transform.rotation);
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(17);
         CanSpawn = true;
     }
 
@@ -48,7 +48,8 @@ public class CIEnemyScript : MonoBehaviour
         if (((int)transform.position.x + 3612) / 24 == ((int)playerPosition.position.x + 3612) / 24 
             && ((int)transform.position.z + 3612) / 24 == ((int)playerPosition.position.z + 3612) / 24 && isDefeated==false)
         {
-            GameObject.Find("HackBar").GetComponent<Slider>().value += 10f * Time.deltaTime;
+            //Where its being added
+            GameObject.Find("HackBar").GetComponent<Slider>().value += 0.2f * Time.deltaTime;
             if (CanSpawn) { StartCoroutine(WaitTime()); }
             GameObject.Find("HackBar").GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
             Debug.Log("1");

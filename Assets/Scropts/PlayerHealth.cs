@@ -21,7 +21,7 @@ public class PlayerHealth : MonoBehaviour
         if (other.CompareTag("EnemyWeapon"))
         {
             Debug.Log("DGMLRGNL");
-            currentHealth -= 5;
+            currentHealth -= 15;
         }
     }
 

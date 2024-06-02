@@ -50,7 +50,7 @@ public class DdosEnemyScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    /*private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
             isCheckingPlayer = false;
@@ -59,7 +59,7 @@ public class DdosEnemyScript : MonoBehaviour
             isAttacking = false;
             isCheckingPlayer = true;
         }
-    }
+    }*/
 
 
     // All the movement is here, dont look at the function name
@@ -100,6 +100,15 @@ public class DdosEnemyScript : MonoBehaviour
 
     private void Update()
     {
+        if (Vector3.Distance(transform.position, playerPosition.position) < 1.7f)
+        {
+            isAttacking = true;
+        }
+        else
+        {
+            isAttacking = false;
+        }
+
         if (controller.isGrounded == true && velocity.y < 0f)
         {
             velocity.y = -2f;
@@ -109,8 +118,9 @@ public class DdosEnemyScript : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (isCheckingPlayer == true && (((int)transform.position.x + 3612) / 24 == ((int)playerPosition.position.x + 3612) / 24
-            && ((int)transform.position.z + 3612) / 24 == ((int)playerPosition.position.z + 3612) / 24)) //Here is chack for attacking
+        if (/*isCheckingPlayer == true &&*/ (((int)transform.position.x + 3612) / 24 == ((int)playerPosition.position.x + 3612) / 24
+            && ((int)transform.position.z + 3612) / 24 == ((int)playerPosition.position.z + 3612) / 24)
+            && Vector3.Distance(transform.position, playerPosition.position) > 1.7f) //Here is chack for attacking
         {
             Attacks();
             if (animations.GetBool("Stay") == true)

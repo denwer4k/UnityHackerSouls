@@ -58,6 +58,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EnemiesPrefabs\MaxStackOverflow\StackOverflowAttack.cs" />
     <Compile Include="Assets\EnemiesPrefabs\CIEnemyScript.cs" />
     <Compile Include="Assets\Scropts\MouseLock.cs" />
     <Compile Include="Assets\Scropts\EnemyHealthBar.cs" />
@@ -65,15 +66,15 @@
     <Compile Include="Assets\Scropts\ProjectileMover.cs" />
     <Compile Include="Assets\Procedural Generation\LevelGeneration.cs" />
     <Compile Include="Assets\Game Objects LOL\ShieldScript.cs" />
+    <Compile Include="Assets\EnemiesPrefabs\MaxStackOverflow\SOprojectileScript.cs" />
     <Compile Include="Assets\Scropts\PlayerHealth.cs" />
     <Compile Include="Assets\Scropts\PlayerMovemnt.cs" />
     <Compile Include="Assets\Scropts\BasicEnemyMovement.cs" />
     <Compile Include="Assets\Game Objects LOL\MedkitScript.cs" />
     <Compile Include="Assets\Scropts\EnemyFire.cs" />
     <Compile Include="Assets\Scropts\Fire.cs" />
-    <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
     <Compile Include="Assets\RoomsModels\TrapdoorScript.cs" />
-    <Compile Include="Assets\EnemiesPrefabs\SOminibossScripts.cs" />
+    <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

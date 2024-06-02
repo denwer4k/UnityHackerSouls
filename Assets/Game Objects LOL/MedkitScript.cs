@@ -18,7 +18,7 @@ public class MedkitScript : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, Player.transform.position) <DistanceForPickup )
         {
-            Player.GetComponent<PlayerHealth>().currentHealth += 20;
+            Player.GetComponent<PlayerHealth>().currentHealth += 10;
             Destroy(gameObject);
         }
             

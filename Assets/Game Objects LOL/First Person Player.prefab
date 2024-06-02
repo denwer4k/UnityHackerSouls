@@ -154,7 +154,6 @@ GameObject:
   - component: {fileID: 1984652888758021237}
   - component: {fileID: 1984652888758021238}
   - component: {fileID: 1984652888758021239}
-  - component: {fileID: 1984652888758021240}
   - component: {fileID: 1984652888758021241}
   - component: {fileID: 1984652888758021242}
   - component: {fileID: 1984652888758021235}
@@ -237,19 +236,6 @@ MonoBehaviour:
     m_Bits: 128
   isSlided: 0
   Compass: {fileID: 1984652890588765591}
---- !u!135 &1984652888758021240
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984652888758021244}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 25
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1984652888758021241
 Rigidbody:
   m_ObjectHideFlags: 0

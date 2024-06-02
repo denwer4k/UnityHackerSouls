@@ -10,7 +10,7 @@ public class LevelGeneration : MonoBehaviour
     private const int maxSizeY = 20;
     int[,] dungShape = new int[maxSizeX, maxSizeY];
 
-    private int numberOfIterations = 9; // how much branches there will be
+    private int numberOfIterations = 4; // how much branches there will be
 
     private int minPixelAmount = 5;
     private int currPixelAmount = 0;
@@ -19,6 +19,8 @@ public class LevelGeneration : MonoBehaviour
     private float chanceOfClumping = 0.1f;
 
     public int DungeonSeed = 1;
+
+    private Vector3 WTH = new Vector3(-0.5f, 0f, 0f);
 
 
 
@@ -279,8 +281,9 @@ public class LevelGeneration : MonoBehaviour
             {
                 if (dungShape[i, j] != 0)
                 {
+                    // TESTING!!!!!
                     //Instantiate(CIminiboss, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
-                    if (dungShape[i, j] == 9)
+                    if (dungShape[i, j] == numberOfIterations)
                     {
                         if (spawnedCI == false)
                         {
@@ -288,6 +291,23 @@ public class LevelGeneration : MonoBehaviour
                             spawnedCI = true;
                         }
                     }
+                    if (dungShape[i, j] == numberOfIterations-1)
+                    {
+                        if (spawnedRC == false)
+                        {
+                            Instantiate(RCminiboss, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
+                            spawnedRC = true;
+                        }
+                    }
+                    if (dungShape[i, j] == numberOfIterations-2)
+                    {
+                        if (spawnedSO == false)
+                        {
+                            Instantiate(SOminiboss, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
+                            spawnedSO = true;
+                        }
+                    }
+                    
                 }
             }
         }

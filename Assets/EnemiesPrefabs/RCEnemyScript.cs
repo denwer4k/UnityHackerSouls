@@ -38,7 +38,7 @@ public class RCEnemyScript : MonoBehaviour
 
 
     }
-
+    /*
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -48,7 +48,7 @@ public class RCEnemyScript : MonoBehaviour
             isAttacking = true;
             isCheckingPlayer = false;
         }
-    }
+    }*/
 
     private void OnTriggerExit(Collider other)
     {
@@ -101,6 +101,15 @@ public class RCEnemyScript : MonoBehaviour
 
     private void Update()
     {
+        if(Vector3.Distance(transform.position, playerPosition.position) < 1.7f)
+        {
+            isAttacking = true;
+        }
+        else
+        {
+            isAttacking = false;
+        }
+
         if (controller.isGrounded == true && velocity.y < 0f)
         {
             velocity.y = -2f;
@@ -110,7 +119,7 @@ public class RCEnemyScript : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (isCheckingPlayer == true && (((int)transform.position.x + 3612) / 24 == ((int)playerPosition.position.x + 3612) / 24
+        if (/*isCheckingPlayer == true && */(((int)transform.position.x + 3612) / 24 == ((int)playerPosition.position.x + 3612) / 24
             && ((int)transform.position.z + 3612) / 24 == ((int)playerPosition.position.z + 3612) / 24)) //Here is chack for attacking
         {
             Attacks();
