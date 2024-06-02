@@ -6,6 +6,9 @@ TagManager:
   tags:
   - EnemyWeapon
   - Aim
+  - PlayerBullet
+  - RacingConditionTag
+  - StackOverflowTag
   layers:
   - Default
   - TransparentFX
@@ -17,8 +20,8 @@ TagManager:
   - GroundLayer
   - DoorsLayer
   - PlayerLayer
-  - 
-  - 
+  - PlatesBullets
+  - ShieldLayer
   - 
   - 
   - 

@@ -135,13 +135,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fb1a1bec2cff6448b5beb99671f87df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsAllowedToDoubleJump: 0
+  IsAllowedToSlide: 0
+  IsAllowedToDash: 0
   controller: {fileID: 0}
   walkSpeed: 10
   runSpeed: 14
   gravity: 18
-  jumpHeight: 15
+  jumpHeight: 5
   dashForce: 0.7
-  timeOfDashRecharge: 2
+  timeOfDashRecharge: 0.1
   dashTime: 0.3
   slideSpeed: 40
   heighOnSlide: 0.5
@@ -401,7 +404,7 @@ MonoBehaviour:
   hitTrigger: {fileID: 6576930716748998515}
   timeOfRecharge: 1.2
   timeOfDestroy: 8
-  timeOfSwordHitRecharge: 0
+  timeOfSwordHitRecharge: 0.5
   fireClip: {fileID: 0}
   strike: {fileID: 0}
 --- !u!82 &1984652888813231544

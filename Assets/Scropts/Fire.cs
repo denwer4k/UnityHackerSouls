@@ -60,6 +60,9 @@ public class Fire : MonoBehaviour
     private AudioSource sounds;
     [SerializeField] private AudioClip fireClip;
     [SerializeField] private AudioClip strike;
+
+    //For stack overflow check
+    public bool ShootAbilityUnlocked = false;
     IEnumerator FireOn()
     {
         isBulletMove = false;
@@ -85,7 +88,7 @@ public class Fire : MonoBehaviour
         hitTrigger.SetActive(true);
         yield return new WaitForSeconds(0.2f);
         hitTrigger.SetActive(false);
-        yield return new WaitForSeconds(timeOfSwordHitRecharge - 0.2f);
+        yield return new WaitForSeconds(timeOfSwordHitRecharge);
         isSwordHit = true;
     }
 
@@ -95,9 +98,9 @@ public class Fire : MonoBehaviour
         sounds = GetComponent<AudioSource>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (Input.GetMouseButtonDown(1) && isBulletMove)
+        if (Input.GetMouseButtonDown(1) && isBulletMove && ShootAbilityUnlocked)
             StartCoroutine(FireOn());
         if (Input.GetMouseButtonDown(0) && isSwordHit)
             StartCoroutine(SwordStrike());

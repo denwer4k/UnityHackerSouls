@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -9188329437727732726}
   - component: {fileID: 8675083964432804737}
   - component: {fileID: 8571217852368641802}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PlateModel
   m_TagString: PlayerBullet
   m_Icon: {fileID: 0}

@@ -247,7 +247,7 @@ PrefabInstance:
     - target: {fileID: -1504981713932161579, guid: 0abc171dc2238a242871c49604be922f, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 9193d5eb652ec384792406c26053f9be, type: 2}
+      objectReference: {fileID: 2100000, guid: 83d7103a63b5e9843a8bb6133868c6e8, type: 2}
     - target: {fileID: -927199367670048503, guid: 0abc171dc2238a242871c49604be922f, type: 3}
       propertyPath: m_Name
       value: CodeInjectionModel 1

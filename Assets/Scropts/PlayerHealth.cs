@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -23,8 +24,19 @@ public class PlayerHealth : MonoBehaviour
             currentHealth -= 5;
         }
     }
+
+    IEnumerator DyingLOL()
+    {
+        yield return new WaitForSeconds(1);
+        Debug.Log("YOU FAILED");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
     void Update()
     {
         healthBar.value = currentHealth;
+        if (currentHealth <= 0)
+        {
+            StartCoroutine(DyingLOL());
+        }
     }
 }

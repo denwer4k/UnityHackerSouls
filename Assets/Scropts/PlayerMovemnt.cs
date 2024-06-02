@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class PlayerMovemnt : MonoBehaviour
 {
+    public bool IsAllowedToDoubleJump = false;
+    public bool IsAllowedToSlide = false;
+    public bool IsAllowedToDash = false;
+
     private Transform transform;
 
     [SerializeField] private CharacterController controller;
@@ -13,11 +17,11 @@ public class PlayerMovemnt : MonoBehaviour
     public float walkSpeed = 10f;
     public float runSpeed = 14f;
     public float gravity = 9.81f;
-    public float jumpHeight = 3f;
+    public float jumpHeight = 5f;
     public float dashForce = 10000f;
     public float timeOfDashRecharge = 4f;
     [SerializeField] private float dashTime = 1.2f;
-    [SerializeField] private float slideSpeed = 30f;
+    [SerializeField] private float slideSpeed = 20f;
 
     [SerializeField] private float heighOnSlide = 0.5f;
     [SerializeField] private float standartHeight = 2f;
@@ -83,7 +87,7 @@ public class PlayerMovemnt : MonoBehaviour
             speed = walkSpeed;
         }
 
-        if (Input.GetKey(KeyCode.LeftControl) && isGrounded)
+        if (Input.GetKey(KeyCode.LeftControl) && isGrounded && IsAllowedToSlide)
         {
             Slide();
         }
@@ -136,7 +140,7 @@ public class PlayerMovemnt : MonoBehaviour
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * -gravity);
         }
 
-        if (Input.GetButtonDown("Jump") && !isGrounded  && DoubleJump)
+        if (Input.GetButtonDown("Jump") && !isGrounded  && DoubleJump && IsAllowedToDoubleJump)
         {
             DoubleJump = false;
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * -gravity);
@@ -149,13 +153,35 @@ public class PlayerMovemnt : MonoBehaviour
 
         //Compass code
         Compass.transform.localEulerAngles = new Vector3(0, 0, transform.eulerAngles.y);
+
+        //Dash moved from FixedUpdat
+        float d = Input.GetAxis("Dash");
+
+        if (isReadyToDash == true && d != 0 && IsAllowedToDash == true)
+        {
+            isReadyToDash = false;
+            if (d > 0)
+            {
+                dash = transform.right;
+            }
+            else
+            {
+                dash = -transform.right;
+            }
+            StartCoroutine("goDash");
+        }
+
+        if (isDashed)
+        {
+            controller.Move(dash * dashForce * Time.deltaTime * 50f);
+        }
     }
 
     private void FixedUpdate()
     {
-        float d = Input.GetAxis("Dash");
+        /*float d = Input.GetAxis("Dash");
 
-        if (isReadyToDash == true && d != 0)
+        if (isReadyToDash == true && d != 0 && IsAllowedToDash == true)
         {
             isReadyToDash = false;
             if (d > 0)
@@ -174,6 +200,6 @@ public class PlayerMovemnt : MonoBehaviour
             controller.Move(dash * dashForce);
         }
 
-        
+        */
     }
 }

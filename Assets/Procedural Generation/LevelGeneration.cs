@@ -36,6 +36,13 @@ public class LevelGeneration : MonoBehaviour
     public GameObject RCminiboss;
     public GameObject CIminiboss;
 
+    private bool spawnedCI = false;
+    private bool spawnedRC = false;
+    private bool spawnedSO = false;
+
+    private bool RCdefeated = false;
+    private bool SOdefeated = false;
+
     //spawn points for enemies
     private Vector3 SpwnP1 = new Vector3(-8, 0, -8);
     private Vector3 SpwnP2 = new Vector3(8, 0, -8);
@@ -211,7 +218,6 @@ public class LevelGeneration : MonoBehaviour
                     {
                         Instantiate(AllDoorsR, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(-90, 0, 0));
 
-                        Instantiate(DdosEnemy, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 10, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
                     }
 
                     if (GetNeighboringRoomsAmount(i, j, dungShape) == 1)
@@ -266,9 +272,51 @@ public class LevelGeneration : MonoBehaviour
                 }
             }
         }
+        //Spawning dem enemies
+        for (int i = 0; i < dungShape.GetLength(1); i++)
+        {
+            for (int j = 0; j < dungShape.GetLength(0); j++)
+            {
+                if (dungShape[i, j] != 0)
+                {
+                    //Instantiate(CIminiboss, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
+                    if (dungShape[i, j] == 9)
+                    {
+                        if (spawnedCI == false)
+                        {
+                            Instantiate(CIminiboss, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
+                            spawnedCI = true;
+                        }
+                    }
+                }
+            }
+        }
     }
+
+
+    // Abilities unlock here!
     private void Update()
     {
+        if (RCdefeated == false)
+        {
+            if (GameObject.FindWithTag("RacingConditionTag") == null)
+            {
+                RCdefeated = true;
+                Debug.Log("Yo1");
+                GameObject.Find("First Person Player").GetComponent<PlayerMovemnt>().IsAllowedToDash = true;
+                GameObject.Find("First Person Player").GetComponent<PlayerMovemnt>().IsAllowedToDoubleJump = true;
+                GameObject.Find("First Person Player").GetComponent<PlayerMovemnt>().IsAllowedToSlide = true;
+            }
+        }
+        if(SOdefeated == false)
+        {
+            if (GameObject.FindWithTag("StackOverflowTag") == null)
+            {
+                SOdefeated = true;
+                GameObject.Find("PlayerHandModel").GetComponent<Fire>().ShootAbilityUnlocked = true;
+            }
+
+        }
         
     }
 }

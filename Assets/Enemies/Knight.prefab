@@ -930,6 +930,7 @@ GameObject:
   - component: {fileID: 4404858773408990763}
   - component: {fileID: 1644241265187639018}
   - component: {fileID: 4448864198449436129}
+  - component: {fileID: -604495034841181699}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -1015,6 +1016,22 @@ MonoBehaviour:
   moveSpeed: 2
   gravity: 9.81
   animationAttackTime: 0.792
+--- !u!114 &-604495034841181699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7345487189012912450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0a14c676642ce4f870991791759f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 40
+  currentHP: 40
+  damagerTag: PlayerBullet
+  getdamage: 20
 --- !u!1 &7540632503123786055
 GameObject:
   m_ObjectHideFlags: 0

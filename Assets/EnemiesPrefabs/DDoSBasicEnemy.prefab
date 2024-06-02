@@ -310,10 +310,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d0a14c676642ce4f870991791759f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 1
-  currentHP: 1
+  maxHP: 40
+  currentHP: 40
   damagerTag: PlayerBullet
   getdamage: 20
+  isDdos: 1
+  HealthKit: {fileID: 1294840441186441902, guid: c75eadef82042f141b8f69e8fbf36899, type: 3}
 --- !u!1001 &5136782368069524376
 PrefabInstance:
   m_ObjectHideFlags: 0

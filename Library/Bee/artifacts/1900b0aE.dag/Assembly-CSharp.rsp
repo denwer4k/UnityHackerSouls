@@ -343,6 +343,7 @@
 "Assets/EnemiesPrefabs/CIEnemyScript.cs"
 "Assets/EnemiesPrefabs/DdosEnemyScript.cs"
 "Assets/EnemiesPrefabs/RCEnemyScript.cs"
+"Assets/Game Objects LOL/MedkitScript.cs"
 "Assets/Game Objects LOL/ShieldScript.cs"
 "Assets/Procedural Generation/LevelGeneration.cs"
 "Assets/Scropts/BasicEnemyMovement.cs"

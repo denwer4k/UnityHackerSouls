@@ -25,15 +25,15 @@ public class CIEnemyScript : MonoBehaviour
         Instantiate(WhatToSpawn, Spawner2.transform.position, Spawner2.transform.rotation);
         Instantiate(WhatToSpawn, Spawner3.transform.position, Spawner3.transform.rotation);
         Instantiate(WhatToSpawn, Spawner4.transform.position, Spawner4.transform.rotation);
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(7);
         CanSpawn = true;
     }
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         GameObject.Find("HackBar").GetComponent<Slider>().maxValue = 10;
-        GameObject.Find("HackBar").GetComponent<RectTransform>().localScale = new Vector3(0, 0, 0);
+        GameObject.Find("HackBar").GetComponent<RectTransform>().localScale = new Vector3(0f, 0f, 0f);
 
         MyMat.SetColor("_Color", Color.red);
         MyMat.SetColor("_EmissionColor", Color.red * 5f);
@@ -51,11 +51,13 @@ public class CIEnemyScript : MonoBehaviour
             GameObject.Find("HackBar").GetComponent<Slider>().value += 10f * Time.deltaTime;
             if (CanSpawn) { StartCoroutine(WaitTime()); }
             GameObject.Find("HackBar").GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
+            Debug.Log("1");
         }
         else
         {
-            GameObject.Find("HackBar").GetComponent<RectTransform>().localScale = new Vector3(0, 0, 0);
+            GameObject.Find("HackBar").GetComponent<RectTransform>().localScale = new Vector3(0f, 0f, 0f);
             GameObject.Find("HackBar").GetComponent<Slider>().value = 0;
+            Debug.Log("2");
         }
         
         if (GameObject.Find("HackBar").GetComponent<Slider>().value == GameObject.Find("HackBar").GetComponent<Slider>().maxValue)

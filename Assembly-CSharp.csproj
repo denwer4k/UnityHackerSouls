@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scropts\PlayerHealth.cs" />
     <Compile Include="Assets\Scropts\PlayerMovemnt.cs" />
     <Compile Include="Assets\Scropts\BasicEnemyMovement.cs" />
+    <Compile Include="Assets\Game Objects LOL\MedkitScript.cs" />
     <Compile Include="Assets\Scropts\EnemyFire.cs" />
     <Compile Include="Assets\Scropts\Fire.cs" />
     <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
