@@ -3,13 +3,7 @@ guid: 7130775cbb448f94b98e848c09daca60
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - WhatToSpawn: {fileID: 7345487189012912450, guid: 85b7e8e405ffe2443a733306dbaf7b27, type: 3}
-  - Spawner1: {instanceID: 0}
-  - Spawner2: {instanceID: 0}
-  - Spawner3: {instanceID: 0}
-  - Spawner4: {instanceID: 0}
-  - MyMat: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

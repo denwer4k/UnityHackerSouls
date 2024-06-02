@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 1644241266376400158}
   - component: {fileID: 1644241266376400156}
   - component: {fileID: 1644241266376400159}
+  - component: {fileID: 1644241266376400157}
   m_Layer: 0
   m_Name: Hit1
   m_TagString: EnemyWeapon
@@ -138,8 +139,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8038592, y: 6.290464, z: 5.9729366}
-  m_Center: {x: -1.1827452, y: 0.25518596, z: 2.997391}
+  m_Size: {x: 2.5099182, y: 2.4808347, z: 3.8255863}
+  m_Center: {x: -0.8297157, y: -1.6496283, z: 1.4127932}
 --- !u!54 &1644241266376400159
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -156,6 +157,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1644241266376400157
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644241266376400153}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5410882, y: 1.3430107, z: 1.8210393}
+  m_Center: {x: -0.270544, y: 2.6689956, z: 0.41051954}
 --- !u!1 &2050230227592658824
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,7 +931,6 @@ GameObject:
   - component: {fileID: 1644241265187639018}
   - component: {fileID: 4448864198449436129}
   - component: {fileID: -604495034841181699}
-  - component: {fileID: 41662440265267969}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -932,8 +945,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7345487189012912450}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -104.8459, y: 2.1, z: -17.319897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 106.4802, y: 5.05, z: -43.726135}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -942,7 +955,7 @@ Transform:
   - {fileID: 1644241266376400158}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &4404858773408990763
 Animator:
   serializedVersion: 5
@@ -994,9 +1007,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb9f1c42fe9ea64abd3364dad63801f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCheckingPlayer: 0
+  isAttacking: 0
   strikeTrigger: {fileID: 1644241266376400153}
   controller: {fileID: 1644241265187639018}
   animations: {fileID: 4404858773408990763}
+  maxDistance: 1000
   moveSpeed: 2
   gravity: 9.81
   animationAttackTime: 0.792
@@ -1013,24 +1029,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHP: 40
-  currentHP: 200
+  currentHP: 40
   damagerTag: PlayerBullet
   getdamage: 20
-  isDdos: 0
-  HealthKit: {fileID: 1294840441186441902, guid: c75eadef82042f141b8f69e8fbf36899, type: 3}
---- !u!135 &41662440265267969
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7345487189012912450}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 4
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7540632503123786055
 GameObject:
   m_ObjectHideFlags: 0

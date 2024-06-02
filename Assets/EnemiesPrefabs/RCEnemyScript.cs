@@ -20,6 +20,7 @@ public class RCEnemyScript : MonoBehaviour
 
     [SerializeField] Animator animations;
 
+    [SerializeField] private float maxDistance = 1000f;
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float gravity = 9.81f;
     [SerializeField] private float animationAttackTime = 0.792f;
@@ -40,17 +41,23 @@ public class RCEnemyScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("Player"))
+            isCheckingPlayer = true;
         if (other.CompareTag("Aim"))
         {
             isAttacking = true;
+            isCheckingPlayer = false;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
+        if (other.CompareTag("Player"))
+            isCheckingPlayer = false;
         if (other.CompareTag("Aim"))
         {
             isAttacking = false;
+            isCheckingPlayer = true;
         }
     }
 
@@ -61,6 +68,7 @@ public class RCEnemyScript : MonoBehaviour
         Vector3 direction = playerPosition.position - transform.position;
         direction.y = 0;
         transform.rotation = Quaternion.LookRotation(direction);
+        //transform.position = Vector3.MoveTowards(transform.position, new Vector3(playerPosition.position.x, transform.position.y, playerPosition.position.z), moveSpeed * Time.deltaTime);
         controller.Move(transform.forward * Time.deltaTime * moveSpeed);
 
 
@@ -77,6 +85,7 @@ public class RCEnemyScript : MonoBehaviour
             Vector3 direction = SpawnPosition - transform.position;
             direction.y = 0;
             transform.rotation = Quaternion.LookRotation(direction);
+            //transform.position = Vector3.MoveTowards(transform.position, new Vector3(playerPosition.position.x, transform.position.y, playerPosition.position.z), moveSpeed * Time.deltaTime);
             controller.Move(transform.forward * Time.deltaTime * moveSpeed);
         }
     }
@@ -84,9 +93,8 @@ public class RCEnemyScript : MonoBehaviour
     IEnumerator Attack1()
     {
         isAttack1 = true;
-        yield return new WaitForSeconds(0.2f);
         strikeTrigger.SetActive(true);
-        yield return new WaitForSeconds(animationAttackTime - 0.2f);
+        yield return new WaitForSeconds(animationAttackTime);
         strikeTrigger.SetActive(false);
         isAttack1 = false;
     }
@@ -102,7 +110,7 @@ public class RCEnemyScript : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (isAttacking == false && (((int)transform.position.x + 3612) / 24 == ((int)playerPosition.position.x + 3612) / 24
+        if (isCheckingPlayer == true && (((int)transform.position.x + 3612) / 24 == ((int)playerPosition.position.x + 3612) / 24
             && ((int)transform.position.z + 3612) / 24 == ((int)playerPosition.position.z + 3612) / 24)) //Here is chack for attacking
         {
             Attacks();
