@@ -306,6 +306,7 @@
 "Assets/EnemiesPrefabs/MaxStackOverflow/SOprojectileScript.cs"
 "Assets/EnemiesPrefabs/MaxStackOverflow/StackOverflowAttack.cs"
 "Assets/EnemiesPrefabs/RCEnemyScript.cs"
+"Assets/FinalBoss/FinalBossPhase1Script.cs"
 "Assets/Game Objects LOL/MedkitScript.cs"
 "Assets/Game Objects LOL/ShieldScript.cs"
 "Assets/Procedural Generation/LevelGeneration.cs"

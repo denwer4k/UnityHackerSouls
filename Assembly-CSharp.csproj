@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scropts\Fire.cs" />
     <Compile Include="Assets\RoomsModels\TrapdoorScript.cs" />
     <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
+    <Compile Include="Assets\FinalBoss\FinalBossPhase1Script.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

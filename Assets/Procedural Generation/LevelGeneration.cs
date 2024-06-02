@@ -10,7 +10,7 @@ public class LevelGeneration : MonoBehaviour
     private const int maxSizeY = 20;
     int[,] dungShape = new int[maxSizeX, maxSizeY];
 
-    private int numberOfIterations = 9; // how much branches there will be
+    private int numberOfIterations = 6; // how much branches there will be
 
     private int minPixelAmount = 5;
     private int currPixelAmount = 0;
@@ -291,24 +291,33 @@ public class LevelGeneration : MonoBehaviour
                             spawnedCI = true;
                         }
                     }
-                    if (dungShape[i, j] == numberOfIterations-1)
+                    
+                }
+                if (dungShape[maxSizeX - i - 1, j] != 0)
+                {
+                    if (dungShape[maxSizeX - i - 1, j] == numberOfIterations - 1)
                     {
                         if (spawnedRC == false)
                         {
-                            Instantiate(RCminiboss, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
+                            Instantiate(RCminiboss, new Vector3((maxSizeX - i - 1 - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
                             spawnedRC = true;
                         }
                     }
-                    if (dungShape[i, j] == numberOfIterations-2)
+
+                }
+                if (dungShape[maxSizeX - i - 1, maxSizeY-j - 1] != 0)
+                {
+                    if (dungShape[maxSizeX - i - 1, maxSizeY - j - 1] == numberOfIterations - 2)
                     {
                         if (spawnedSO == false)
                         {
-                            Instantiate(SOminiboss, new Vector3((i - maxSizeX / 2) * sizeOfRoom, 0, (j - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
+                            Instantiate(SOminiboss, new Vector3((maxSizeX - i - 1 - maxSizeX / 2) * sizeOfRoom, 0, (maxSizeY - j - 1 - maxSizeY / 2) * sizeOfRoom), Quaternion.Euler(0, 0, 0));
                             spawnedSO = true;
                         }
                     }
-                    
+
                 }
+
             }
         }
     }

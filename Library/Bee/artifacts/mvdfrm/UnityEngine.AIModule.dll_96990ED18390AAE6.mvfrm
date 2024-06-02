@@ -1,0 +1,13 @@
+NavMeshPathStatus
+UnityEngine
+NavMeshPath
+NavMeshHit
+NavMeshTriangulation
+NavMesh
+OffMeshLinkType
+OffMeshLinkData
+OffMeshLink
+NavMeshObstacleShape
+NavMeshObstacle
+ObstacleAvoidanceType
+NavMeshAgent

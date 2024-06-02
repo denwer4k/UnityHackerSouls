@@ -52,13 +52,13 @@ public class CIEnemyScript : MonoBehaviour
             GameObject.Find("HackBar").GetComponent<Slider>().value += 0.2f * Time.deltaTime;
             if (CanSpawn) { StartCoroutine(WaitTime()); }
             GameObject.Find("HackBar").GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
-            Debug.Log("1");
+            
         }
         else
         {
             GameObject.Find("HackBar").GetComponent<RectTransform>().localScale = new Vector3(0f, 0f, 0f);
             GameObject.Find("HackBar").GetComponent<Slider>().value = 0;
-            Debug.Log("2");
+            
         }
         
         if (GameObject.Find("HackBar").GetComponent<Slider>().value == GameObject.Find("HackBar").GetComponent<Slider>().maxValue)
