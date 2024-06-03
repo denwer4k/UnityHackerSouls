@@ -146,16 +146,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'wasd - move
+  m_text: 'ESC - exit to menu
 
-    shift - sprint
+    WASD - move
 
-    space - jump
+    Shift - sprint
 
-    G - open doors
+    Space - jump
 
-    LMB
-    - strike
+    G
+    - open doors
+
+    LMB - strike
 
     RMB - ???
 
@@ -163,7 +165,8 @@ MonoBehaviour:
 
     cntrl - ???
 
-    F - ???
+    F
+    - ???
 
 '
   m_isRightToLeft: 0

@@ -1142,6 +1142,23 @@ CharacterController:
   m_CorrespondingSourceObject: {fileID: 1984652888758021238, guid: 9307a5eb7662f6e438c04b517fdf6242, type: 3}
   m_PrefabInstance: {fileID: 1174215126}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1174215128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1984652888758021244, guid: 9307a5eb7662f6e438c04b517fdf6242, type: 3}
+  m_PrefabInstance: {fileID: 1174215126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1174215129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174215128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7885e500c088b448536b30e83d55b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1209653016
 PrefabInstance:
   m_ObjectHideFlags: 0
