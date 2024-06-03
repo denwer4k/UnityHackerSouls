@@ -295,8 +295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExplosionLol: {fileID: 6817795344771873977, guid: ef6cb16394516fa4a8590a0da74c9339, type: 3}
-  maxHP: 60
-  currentHP: 60
+  maxHP: 100
+  currentHP: 100
   damagerTag: PlayerBullet
   getdamage: 20
   DamSound: {fileID: 8300000, guid: f8bce59990c392148b8dc05985472de7, type: 3}

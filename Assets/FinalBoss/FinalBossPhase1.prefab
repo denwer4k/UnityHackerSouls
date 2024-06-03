@@ -294,7 +294,7 @@ MonoBehaviour:
   currentHP: 22
   damagerTag: PlayerBullet
   getdamage: 1
-  DamSound: {fileID: 0}
+  DamSound: {fileID: 8300000, guid: f8bce59990c392148b8dc05985472de7, type: 3}
   isDdos: 0
   HealthKit: {fileID: 1294840441186441902, guid: c75eadef82042f141b8f69e8fbf36899, type: 3}
 --- !u!114 &1546659409662057436
