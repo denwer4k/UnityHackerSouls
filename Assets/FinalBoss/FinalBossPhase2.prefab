@@ -117,6 +117,7 @@ MonoBehaviour:
   animationAttackTime: 0.792
   EnemyProjectile: {fileID: 6467506733130720274, guid: c3fb55d680f9acc478c34415bbd2b397, type: 3}
   PlateSpawner: {fileID: 2045359565451287786}
+  ShouldPlaySummonAnimation: 0
 --- !u!114 &-5708411965750608184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,10 +130,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d0a14c676642ce4f870991791759f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 20
-  currentHP: 20
+  ExplosionLol: {fileID: 6817795344771873977, guid: ef6cb16394516fa4a8590a0da74c9339, type: 3}
+  maxHP: 10
+  currentHP: 10
   damagerTag: PlayerBullet
-  getdamage: 20
+  getdamage: 10
+  DamSound: {fileID: 0}
   isDdos: 0
   HealthKit: {fileID: 1294840441186441902, guid: c75eadef82042f141b8f69e8fbf36899, type: 3}
 --- !u!1 &6195595394243270448

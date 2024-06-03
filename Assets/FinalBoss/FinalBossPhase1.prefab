@@ -289,10 +289,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d0a14c676642ce4f870991791759f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ExplosionLol: {fileID: 6817795344771873977, guid: ef6cb16394516fa4a8590a0da74c9339, type: 3}
   maxHP: 22
   currentHP: 22
   damagerTag: PlayerBullet
   getdamage: 22
+  DamSound: {fileID: 0}
   isDdos: 0
   HealthKit: {fileID: 1294840441186441902, guid: c75eadef82042f141b8f69e8fbf36899, type: 3}
 --- !u!114 &1546659409662057436

@@ -11,6 +11,9 @@ TagManager:
   - StackOverflowTag
   - BossPhase1
   - BossPhase2
+  - BossMinions
+  - MusicManager
+  - CreatorParticles
   layers:
   - Default
   - TransparentFX

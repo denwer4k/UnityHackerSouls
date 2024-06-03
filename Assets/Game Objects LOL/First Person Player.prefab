@@ -270,6 +270,8 @@ MonoBehaviour:
   healthBar: {fileID: 1984652890624297103}
   currentHealth: 300
   maxHealth: 300
+  Die: {fileID: 8300000, guid: 64944d96d656bbe479c8f57eba2637d2, type: 3}
+  Hurt: {fileID: 8300000, guid: 20ab5cfb9a485624f8e4b41f7d5ff931, type: 3}
 --- !u!82 &1984652888758021235
 AudioSource:
   m_ObjectHideFlags: 0
@@ -474,8 +476,8 @@ MonoBehaviour:
   timeOfRecharge: 1.2
   timeOfDestroy: 8
   timeOfSwordHitRecharge: 0.1
-  fireClip: {fileID: 0}
-  strike: {fileID: 0}
+  fireClip: {fileID: 8300000, guid: 7a265926fff35b5499954164c0887078, type: 3}
+  strike: {fileID: 8300000, guid: 1f37dc098ad9e8847995c773029d4d46, type: 3}
   ShootAbilityUnlocked: 0
 --- !u!82 &1984652888813231544
 AudioSource:

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FinalBossPhase2Script : MonoBehaviour
-{
+{ 
+
     public bool isCheckingPlayer = false;
     public bool isAttacking = false;
 
@@ -36,6 +37,7 @@ public class FinalBossPhase2Script : MonoBehaviour
 
     private void Start()
     {
+
         animations = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
         playerPosition = GameObject.FindWithTag("Player").transform;
@@ -88,7 +90,7 @@ public class FinalBossPhase2Script : MonoBehaviour
     }
     IEnumerator OnePlateThrow()
     {
-        yield return new WaitForSeconds(Time.deltaTime * 4);
+        yield return new WaitForSeconds(Time.deltaTime * 2);
         CanThrowOnePlate = false;
         yield return new WaitForSeconds(0.3f);
         CanThrowOnePlate = true;
@@ -114,23 +116,24 @@ public class FinalBossPhase2Script : MonoBehaviour
         velocity.y -= gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
-
+        
         if (Vector3.Distance(transform.position, playerPosition.position) > 2.2f) //Here is chack for attacking
         {
             Attacks();
-            if (animations.GetBool("Stay") == true)
+            /*if (animations.GetBool("Stay") == true)
                 animations.Play("KnightRig|Walking");
             animations.SetBool("Running", true);
             animations.SetBool("Stay", false);
-            animations.SetBool("Attack", false);
+            animations.SetBool("Attack", false);*/
         }
+        
         else if (isAttacking == true)
         {
             if (isAttack1 == false)
                 StartCoroutine("Attack1");
-            animations.SetBool("Running", false);
+            /*animations.SetBool("Running", false);
             animations.SetBool("Stay", false);
-            animations.SetBool("Attack", true);
+            animations.SetBool("Attack", true);*/
             Vector3 direction = playerPosition.position - transform.position;
             direction.y = 0;
             transform.rotation = Quaternion.LookRotation(direction);
@@ -146,14 +149,14 @@ public class FinalBossPhase2Script : MonoBehaviour
 
         Debug.Log(CanThrowOnePlate);
 
-        // SPAWN OFF DDOSENEMIES
+        //CREATIONOFPROJECTILE
         if (CanThrowPlates == true)
         {
             StartCoroutine(PlateThrowingSession());
             animations.Play("KnightRig|Attack");
             animations.SetBool("Throw", true);
             animations.SetBool("Stay", false);
-            animations.SetBool("Summmon", false);
+            animations.SetBool("Summon", false);
         }
         else
         {
@@ -169,7 +172,24 @@ public class FinalBossPhase2Script : MonoBehaviour
         {
             Instantiate(EnemyProjectile, PlateSpawner.position, PlateSpawner.rotation * Quaternion.Euler(90, 0, 90));
         }
-        //CREATIONOFPROJECTILE
+        
+
+        // SPAWN OFF DDOSENEMIES
+        if (ShouldPlaySummonAnimation == true)
+        {
+            animations.Play("KnightRig|Summonation");
+            animations.SetBool("Throw", false);
+            animations.SetBool("Stay", false);
+            animations.SetBool("Summon", true);
+            ShouldPlaySummonAnimation = false;
+        }
+        else
+        {
+            animations.SetBool("Summon", false);
+            animations.SetBool("Stay", true);
+        }
+        
+
     }
 
     
