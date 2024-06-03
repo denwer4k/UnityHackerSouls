@@ -16,6 +16,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private AudioClip Hurt;
     private bool hasDied = false;
 
+    public bool isInBossfight = false;
+
     void Start()
     {
         healthBar.maxValue = maxHealth;
@@ -41,12 +43,24 @@ public class PlayerHealth : MonoBehaviour
         
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    IEnumerator DyingLOLInBossfight()
+    {
+        hasDied = true;
+        HealthAudSource.Stop();
+        HealthAudSource.PlayOneShot(Die);
+        yield return new WaitForSeconds(1.6f);
+
+        SceneManager.LoadScene("DungeonLevel");
+    }
     void Update()
     {
         healthBar.value = currentHealth;
-        if (currentHealth <= 0 && hasDied == false)
+        if (currentHealth <= 0 && hasDied == false && isInBossfight == false)
         {
             StartCoroutine(DyingLOL());
+        } else if(currentHealth <= 0 && hasDied == false && isInBossfight == true)
+        {
+            StartCoroutine(DyingLOLInBossfight());
         }
     }
 }

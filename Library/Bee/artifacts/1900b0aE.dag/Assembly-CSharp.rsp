@@ -352,6 +352,8 @@
 "Assets/Game Objects LOL/ExplosionScript.cs"
 "Assets/Game Objects LOL/MedkitScript.cs"
 "Assets/Game Objects LOL/ShieldScript.cs"
+"Assets/Levels/DoorOfTheEnd.cs"
+"Assets/Levels/ProblemFixer.cs"
 "Assets/MusicManager.cs"
 "Assets/Procedural Generation/LevelGeneration.cs"
 "Assets/RoomsModels/TrapdoorScript.cs"

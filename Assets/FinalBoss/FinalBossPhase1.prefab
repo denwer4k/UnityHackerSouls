@@ -293,7 +293,7 @@ MonoBehaviour:
   maxHP: 22
   currentHP: 22
   damagerTag: PlayerBullet
-  getdamage: 22
+  getdamage: 1
   DamSound: {fileID: 0}
   isDdos: 0
   HealthKit: {fileID: 1294840441186441902, guid: c75eadef82042f141b8f69e8fbf36899, type: 3}

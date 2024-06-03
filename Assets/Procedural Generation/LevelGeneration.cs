@@ -75,8 +75,9 @@ public class LevelGeneration : MonoBehaviour
 
     private void Start()
     {
+        DungeonSeed = (int)UnityEngine.Random.value * 1000000; 
         // initialize seed
-        UnityEngine.Random.InitState(DungeonSeed);
+        //UnityEngine.Random.InitState(DungeonSeed);
 
         //fill array with empty space
         for (int i = 0; i < dungShape.GetLength(0); i++)

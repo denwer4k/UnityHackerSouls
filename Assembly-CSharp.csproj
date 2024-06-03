@@ -70,6 +70,7 @@
     <Compile Include="Assets\FinalBoss\BossDdosScript.cs" />
     <Compile Include="Assets\Game Objects LOL\ShieldScript.cs" />
     <Compile Include="Assets\EnemiesPrefabs\MaxStackOverflow\SOprojectileScript.cs" />
+    <Compile Include="Assets\Levels\ProblemFixer.cs" />
     <Compile Include="Assets\Scropts\PlayerHealth.cs" />
     <Compile Include="Assets\Scropts\PlayerMovemnt.cs" />
     <Compile Include="Assets\Scropts\BasicEnemyMovement.cs" />
@@ -77,10 +78,11 @@
     <Compile Include="Assets\FinalBoss\BossFightManagerScript.cs" />
     <Compile Include="Assets\Scropts\EnemyFire.cs" />
     <Compile Include="Assets\Scropts\Fire.cs" />
+    <Compile Include="Assets\Levels\DoorOfTheEnd.cs" />
     <Compile Include="Assets\RoomsModels\TrapdoorScript.cs" />
     <Compile Include="Assets\FinalBoss\FinalBossPhase2Script.cs" />
-    <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
     <Compile Include="Assets\Game Objects LOL\ExplosionScript.cs" />
+    <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hovl Studio\Procedural fire\Shaders\FireSphere.shader" />

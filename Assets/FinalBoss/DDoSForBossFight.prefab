@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d0a14c676642ce4f870991791759f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ExplosionLol: {fileID: 0}
+  ExplosionLol: {fileID: 6817795344771873977, guid: ef6cb16394516fa4a8590a0da74c9339, type: 3}
   maxHP: 80
   currentHP: 80
   damagerTag: PlayerBullet

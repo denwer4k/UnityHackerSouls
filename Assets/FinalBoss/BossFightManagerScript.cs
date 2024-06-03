@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class BossFightManagerScript : MonoBehaviour
@@ -57,6 +58,11 @@ public class BossFightManagerScript : MonoBehaviour
         Instantiate(AppearParticles, BossSpawner.transform);
         yield return new WaitForSeconds(6.5f);
         
+        player.GetComponent<CharacterController>().enabled = false;
+        player.transform.position = transform.position;
+        player.transform.rotation = transform.rotation * Quaternion.Euler(0, 180, 0);
+        player.GetComponent<CharacterController>().enabled = true;
+
         Instantiate(BossPhase2, BossSpawner.transform.position, BossSpawner.transform.rotation);
         WasthereBoss2 = true;
         //GameObject.FindWithTag("BossPhase2").GetComponent<FinalBossPhase2Script>().Shield = ShieldInManager;
@@ -83,7 +89,11 @@ public class BossFightManagerScript : MonoBehaviour
         SummonDemRobots = true;
     }
 
-    
+    IEnumerator TransportToCongrats()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("CongratulationsScreen");
+    }
 
     // Update is called once per frame
     void Update()
@@ -108,12 +118,14 @@ public class BossFightManagerScript : MonoBehaviour
         {
             Debug.Log("Congrats!");
             player.GetComponent<PlayerHealth>().currentHealth = player.GetComponent<PlayerHealth>().maxHealth;
+            StartCoroutine(TransportToCongrats());
         }
     }
     private void OnTriggerEnter(Collider other)
     {
         if (isFirstPhaseStarted == false && other.CompareTag("Player"))
         {
+            player.GetComponent<PlayerHealth>().isInBossfight = true;
             isFirstPhaseStarted = true;
             BossSource.PlayOneShot(FirstApeearance);
             Instantiate(BossPhase1, BossSpawner.transform.position, BossSpawner.transform.rotation);

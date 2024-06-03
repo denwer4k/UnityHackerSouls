@@ -272,6 +272,7 @@ MonoBehaviour:
   maxHealth: 300
   Die: {fileID: 8300000, guid: 64944d96d656bbe479c8f57eba2637d2, type: 3}
   Hurt: {fileID: 8300000, guid: 20ab5cfb9a485624f8e4b41f7d5ff931, type: 3}
+  isInBossfight: 0
 --- !u!82 &1984652888758021235
 AudioSource:
   m_ObjectHideFlags: 0
@@ -941,7 +942,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 71f8f57b2012d0843be72ee388a462dd, type: 2}
+  - {fileID: 2100000, guid: 6727f4a616cf7b44b998f5229fbf5493, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
