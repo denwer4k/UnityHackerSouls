@@ -15,6 +15,8 @@ public class MouseLock : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        mouseXSensitivity = PlayerPrefs.GetFloat("MSensitivity");
+        mouseYSensitivity = PlayerPrefs.GetFloat("MSensitivity");
     }
 
     void Update()

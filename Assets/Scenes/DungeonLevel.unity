@@ -626,7 +626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AppearParticles: {fileID: 198666595769859854, guid: 1381b64ff1936ac4e80c3a00687081f3, type: 3}
   YouWillDie: {fileID: 8300000, guid: a709063b74409a046b11f46bc9489cfb, type: 3}
-  FirstApeearance: {fileID: 8300000, guid: c5a056e3572bb2241ad191e8d0c92a14, type: 3}
+  FirstApeearance: {fileID: 8300000, guid: bf3c4d70785127548826bfde29d50d0c, type: 3}
   BaseRobot: {fileID: 7345487189012912450, guid: fc9b879c4dc30cc42881b7ee28e7e2fa, type: 3}
   BossPhase1: {fileID: 7345487189012912450, guid: a7924357fb2fab84ca91783226d688f2, type: 3}
   BossPhase2: {fileID: 693670962943315740, guid: 5e9316c21543e2042b31209ddbbc85ca, type: 3}
