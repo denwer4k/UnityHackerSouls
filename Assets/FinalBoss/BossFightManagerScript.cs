@@ -50,6 +50,7 @@ public class BossFightManagerScript : MonoBehaviour
     }
     IEnumerator startPhase2()
     {
+        player.GetComponent<PlayerHealth>().isInBossfight = true;
         MusicMngr.GetComponent<MusicManager>().ShouldPlayBossMusic = true;
         //play sound clip here
         BossSource.PlayOneShot(YouWillDie);
@@ -124,7 +125,7 @@ public class BossFightManagerScript : MonoBehaviour
     {
         if (isFirstPhaseStarted == false && other.CompareTag("Player"))
         {
-            player.GetComponent<PlayerHealth>().isInBossfight = true;
+            
             isFirstPhaseStarted = true;
             BossSource.PlayOneShot(FirstApeearance);
             Instantiate(BossPhase1, BossSpawner.transform.position, BossSpawner.transform.rotation);

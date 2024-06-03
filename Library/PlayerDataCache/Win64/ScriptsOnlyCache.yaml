@@ -54,10 +54,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -160,6 +158,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MainMenuScript
     methodName: PlayGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuCameraScript
+    methodName: SaveDateInPlPr
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1920,4 +1921,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level3.unity
   - Assets/Scenes/DungeonLevel.unity
   - Assets/Scenes/CongratulationsScreen.unity
-  playerPath: C:/Users/timas/Desktop/jAMgAME/Builds/TestingBuildWindows/HackSoulsGame.exe
+  playerPath: C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame.exe

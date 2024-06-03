@@ -9,8 +9,8 @@ public class PlayerHealth : MonoBehaviour
 {
     
     [SerializeField] private Slider healthBar;
-    public float currentHealth = 100;
-    public float maxHealth = 100;
+    public float currentHealth = 200;
+    public float maxHealth = 200;
     private AudioSource HealthAudSource;
     [SerializeField] private AudioClip Die;
     [SerializeField] private AudioClip Hurt;

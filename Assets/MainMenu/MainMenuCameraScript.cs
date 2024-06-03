@@ -17,6 +17,10 @@ public class MainMenuCameraScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        MSslider.value = PlayerPrefs.GetFloat("MSensitivity");
+        if (MSslider.value == MSslider.minValue) {
+            PlayerPrefs.SetFloat("MSensitivity", 150f);
+        }
         InitTrans = transform.rotation;
     }
     public void StartTesting()
