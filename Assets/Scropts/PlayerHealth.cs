@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public float currentHealth = 100;
     public float maxHealth = 100;
 
+    
+
     void Start()
     {
         healthBar.maxValue = maxHealth;

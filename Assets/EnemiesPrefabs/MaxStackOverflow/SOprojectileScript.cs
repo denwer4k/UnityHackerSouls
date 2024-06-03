@@ -6,7 +6,11 @@ public class SOprojectileScript : MonoBehaviour
 {
     private Rigidbody RB;
     public float Power = 1000f;
-
+    IEnumerator DestroyCor()
+    {
+        yield return new WaitForSeconds(3);
+        Destroy(gameObject);
+    }
     private void Awake()
     {
         RB = GetComponent<Rigidbody>();
@@ -31,6 +35,6 @@ public class SOprojectileScript : MonoBehaviour
             Player.GetComponent<PlayerHealth>().currentHealth -= 25;
             Destroy(gameObject);
         }
-
+        StartCoroutine(DestroyCor());
     }
 }

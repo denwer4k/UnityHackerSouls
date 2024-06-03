@@ -34,6 +34,7 @@ public class PlayerMovemnt : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundDistance = 0.5f;
     [SerializeField] private LayerMask groundMask;
+    [SerializeField] private LayerMask groundMask2;
     private bool isGrounded = false;
 
     private bool isReadyToDash = true;
@@ -98,6 +99,8 @@ public class PlayerMovemnt : MonoBehaviour
         }
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        if (isGrounded == false) isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask2);
+
 
         if (isGrounded)
         {

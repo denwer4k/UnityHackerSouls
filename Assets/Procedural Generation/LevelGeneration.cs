@@ -10,7 +10,7 @@ public class LevelGeneration : MonoBehaviour
     private const int maxSizeY = 20;
     int[,] dungShape = new int[maxSizeX, maxSizeY];
 
-    private int numberOfIterations = 6; // how much branches there will be
+    private int numberOfIterations = 5; // how much branches there will be
 
     private int minPixelAmount = 5;
     private int currPixelAmount = 0;

@@ -18,7 +18,8 @@ public class EnemyHealthBar : MonoBehaviour
             currentHP -= getdamage;
         if (currentHP <= 0)
         {
-            Instantiate(HealthKit, transform.position, transform.rotation);
+            if (isDdos) Instantiate(HealthKit, transform.position, transform.rotation);
+
             Destroy(gameObject);
         }
             

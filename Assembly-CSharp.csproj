@@ -61,6 +61,7 @@
     <Compile Include="Assets\EnemiesPrefabs\MaxStackOverflow\StackOverflowAttack.cs" />
     <Compile Include="Assets\EnemiesPrefabs\CIEnemyScript.cs" />
     <Compile Include="Assets\Scropts\MouseLock.cs" />
+    <Compile Include="Assets\FinalBoss\FinalBossPhase1Script.cs" />
     <Compile Include="Assets\Scropts\EnemyHealthBar.cs" />
     <Compile Include="Assets\EnemiesPrefabs\RCEnemyScript.cs" />
     <Compile Include="Assets\Scropts\ProjectileMover.cs" />
@@ -75,7 +76,9 @@
     <Compile Include="Assets\Scropts\Fire.cs" />
     <Compile Include="Assets\RoomsModels\TrapdoorScript.cs" />
     <Compile Include="Assets\EnemiesPrefabs\DdosEnemyScript.cs" />
-    <Compile Include="Assets\FinalBoss\FinalBossPhase1Script.cs" />
+    <Compile Include="Assets\FinalBoss\BossFightManagerScript.cs" />
+    <Compile Include="Assets\FinalBoss\FinalBossPhase2Script.cs" />
+    <Compile Include="Assets\FinalBoss\BossDdosScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

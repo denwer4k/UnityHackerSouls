@@ -234,6 +234,9 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 128
+  groundMask2:
+    serializedVersion: 2
+    m_Bits: 4096
   isSlided: 0
   Compass: {fileID: 1984652890588765591}
 --- !u!54 &1984652888758021241

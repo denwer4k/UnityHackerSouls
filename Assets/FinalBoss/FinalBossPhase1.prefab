@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1644241266376400158
 Transform:
   m_ObjectHideFlags: 0
@@ -194,12 +194,12 @@ GameObject:
   - component: {fileID: 6028965812832496465}
   - component: {fileID: 4404858773408990763}
   - component: {fileID: 1644241265187639018}
-  - component: {fileID: 12274179693949704}
   - component: {fileID: -6049288978953609032}
   - component: {fileID: 7972793458558453426}
+  - component: {fileID: 1546659409662057436}
   m_Layer: 0
   m_Name: FinalBossPhase1
-  m_TagString: Untagged
+  m_TagString: BossPhase1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -231,8 +231,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7345487189012912450}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 0414e2c7f1889db4fba140031d27d1ef, type: 3}
-  m_Controller: {fileID: 9100000, guid: 34904987134821e4ab746d3aa0316f92, type: 2}
+  m_Avatar: {fileID: 9000000, guid: 31c085795096c3741a3ca0d0d250188c, type: 3}
+  m_Controller: {fileID: 9100000, guid: d398117be33635e488d1233eb5a935ef, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -261,27 +261,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: -1.02, z: 0}
---- !u!114 &12274179693949704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7345487189012912450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3bb20f206979ac498d46e9c72ce26ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCheckingPlayer: 0
-  isAttacking: 0
-  strikeTrigger: {fileID: 1644241266376400153}
-  controller: {fileID: 1644241265187639018}
-  animations: {fileID: 0}
-  maxDistance: 1000
-  moveSpeed: 2
-  gravity: 9.81
-  animationAttackTime: 0.792
 --- !u!54 &-6049288978953609032
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -310,12 +289,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d0a14c676642ce4f870991791759f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 25
-  currentHP: 25
+  maxHP: 22
+  currentHP: 22
   damagerTag: PlayerBullet
-  getdamage: 1
+  getdamage: 22
   isDdos: 0
   HealthKit: {fileID: 1294840441186441902, guid: c75eadef82042f141b8f69e8fbf36899, type: 3}
+--- !u!114 &1546659409662057436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7345487189012912450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49595990ea0ed4ba64eb6022315e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCheckingPlayer: 0
+  isAttacking: 0
+  strikeTrigger: {fileID: 1644241266376400153}
+  controller: {fileID: 0}
+  animations: {fileID: 0}
+  maxDistance: 1000
+  moveSpeed: 2
+  gravity: 9.81
+  animationAttackTime: 0.792
 --- !u!1001 &8508774566690103254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -380,9 +380,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1526964690268444965, guid: 31c085795096c3741a3ca0d0d250188c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 40900bcb706f0eb4bb858964fa584e37, type: 2}
+    - target: {fileID: -1526964690268444965, guid: 31c085795096c3741a3ca0d0d250188c, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 0a7a58281b06fd5458333e13ec635641, type: 2}
+    - target: {fileID: -1526964690268444965, guid: 31c085795096c3741a3ca0d0d250188c, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8fdc7bee29371514ab1c722b9852c1bd, type: 2}
     - target: {fileID: 919132149155446097, guid: 31c085795096c3741a3ca0d0d250188c, type: 3}
       propertyPath: m_Name
       value: FinalBossModelFixedUV

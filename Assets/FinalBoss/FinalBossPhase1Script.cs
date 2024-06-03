@@ -59,12 +59,12 @@ public class FinalBossPhase1Script : MonoBehaviour
 
 
     }
-    public void NotAttacking()
+    /*public void NotAttacking() BECAUSE BOSS
     {
         if (Mathf.Abs(transform.position.x - SpawnPosition.x) > 0.1 && Mathf.Abs(transform.position.z - SpawnPosition.x) > 0.1)
         {
             if (animations.GetBool("Stay") == true)
-                animations.Play("DdosRig|Run");
+                animations.Play("KnightRig|Walking");
             animations.SetBool("Running", true);
             animations.SetBool("Stay", false);
             animations.SetBool("Attack", false);
@@ -73,21 +73,23 @@ public class FinalBossPhase1Script : MonoBehaviour
             transform.rotation = Quaternion.LookRotation(direction);
             controller.Move(transform.forward * Time.deltaTime * moveSpeed);
         }
-    }
+    }*/
 
     IEnumerator Attack1()
     {
         isAttack1 = true;
-        yield return new WaitForSeconds(0.6f); //это изменилось
+        //это изменилось
+        yield return new WaitForSeconds(0.5f);
         strikeTrigger.SetActive(true);
-        yield return new WaitForSeconds(animationAttackTime - 0.6f);   //это изменилось
+        yield return new WaitForSeconds(0.25f);   //это изменилось
         strikeTrigger.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
         isAttack1 = false;
     }
 
     private void Update()
     {
-        if (Vector3.Distance(transform.position, playerPosition.position) < 1.7f)
+        if (Vector3.Distance(transform.position, playerPosition.position) < 2.2f)
         {
             isAttacking = true;
         }
@@ -109,7 +111,7 @@ public class FinalBossPhase1Script : MonoBehaviour
         {
             Attacks();
             if (animations.GetBool("Stay") == true)
-                animations.Play("DdosRig|Run");
+                animations.Play("KnightRig|Walking");
             animations.SetBool("Running", true);
             animations.SetBool("Stay", false);
             animations.SetBool("Attack", false);
@@ -127,7 +129,7 @@ public class FinalBossPhase1Script : MonoBehaviour
         }
         else
         {
-            NotAttacking();
+            //NotAttacking(); BECAUSE BOSS
             animations.SetBool("Running", false);
             animations.SetBool("Stay", true);
             animations.SetBool("Attack", false);
