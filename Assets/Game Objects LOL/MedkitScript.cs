@@ -20,7 +20,7 @@ public class MedkitScript : MonoBehaviour
     {
         HasBeenPickedUp = true;
         KitSource.PlayOneShot(HealClip);
-        Player.GetComponent<PlayerHealth>().currentHealth += 10;
+        Player.GetComponent<PlayerHealth>().currentHealth += 18;
         yield return new WaitForSeconds(0.5f);
 
         Destroy(gameObject);

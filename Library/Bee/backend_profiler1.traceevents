@@ -1,491 +1,491 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1717438957379188, "dur":1319, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957380514, "dur":56, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1717438957380580, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1717438957380599, "dur":422, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1717438957381038, "dur":491, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957381529, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957675863, "dur":163, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676026, "dur":176, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676202, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676206, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676235, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676239, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676246, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676249, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676254, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676256, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676260, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676261, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676267, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676269, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676272, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676274, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676278, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676280, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676283, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676284, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676288, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676290, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676293, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676295, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676299, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676301, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676305, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676307, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676311, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676312, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676317, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676319, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676323, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676337, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957676354, "dur":2047, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1717438957381116, "dur":425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957381541, "dur":3954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957385496, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1717438957385641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957387020, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1717438957388667, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1717438957388740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957388745, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1717438957390131, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957390232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957390285, "dur":33995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957424339, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957424398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957424407, "dur":6364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957430822, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957430889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957430896, "dur":4504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957435460, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957435538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957435545, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957437941, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957437992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957438001, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957439212, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957439258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957439266, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957440740, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957440795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957440804, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957442577, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957442710, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957442716, "dur":14411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957457182, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957457238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717438957457245, "dur":42657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1717438957499950, "dur":175906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957381162, "dur":389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957381551, "dur":3946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957385498, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1717438957385655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957387596, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1717438957388714, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957388807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957389002, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957390462, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame.exe" }}
-,{ "pid":12345, "tid":2, "ts":1717438957390496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957390500, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame.exe" }}
-,{ "pid":12345, "tid":2, "ts":1717438957392077, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1717438957392190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957392419, "dur":28760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1717438957421245, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957421300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957421308, "dur":5862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957427255, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957427393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957427401, "dur":6302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957433742, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957433792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957433798, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957436618, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957436681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957436693, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957438444, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957438501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957438509, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957440237, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957440290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957440302, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957441842, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957441894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957441903, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957443197, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957443284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957443292, "dur":14560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957457893, "dur":176325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957634223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717438957634233, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717438957635373, "dur":40492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957381145, "dur":403, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957381548, "dur":3943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957385494, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1717438957385647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957387081, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1717438957388620, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1717438957388733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957389026, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1717438957390157, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957390277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957390282, "dur":55608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957445942, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957445988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957445998, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957448376, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957448421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957448434, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957450439, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957450487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957450499, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957451705, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957451842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957451851, "dur":6803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717438957458700, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets5.resource" }}
-,{ "pid":12345, "tid":3, "ts":1717438957458748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957458758, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets5.resource" }}
-,{ "pid":12345, "tid":3, "ts":1717438957465071, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":3, "ts":1717438957465147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957465159, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":3, "ts":1717438957466315, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":3, "ts":1717438957466357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957466365, "dur":9093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":3, "ts":1717438957475513, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":3, "ts":1717438957475564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957475576, "dur":7107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":3, "ts":1717438957482725, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1717438957482861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957482867, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1717438957486251, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1717438957486386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717438957486397, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1717438957487531, "dur":188330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717438957381190, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717438957381557, "dur":3936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717438957385494, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1717438957385674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717438957393382, "dur":5274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1717438957398707, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957398755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717438957398946, "dur":6295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957405290, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957405354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717438957405363, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957408941, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957408992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717438957408997, "dur":4840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957413876, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957413915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717438957413921, "dur":8439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957422404, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957422448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717438957422455, "dur":81890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717438957504395, "dur":171486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717438957381219, "dur":344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717438957381563, "dur":4024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717438957385592, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1717438957385743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717438957415567, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1717438957416921, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717438957416979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717438957416985, "dur":7549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717438957424765, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717438957424909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717438957424917, "dur":85863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717438957510876, "dur":165006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957381253, "dur":319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957381572, "dur":3991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957385569, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1717438957385696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957399240, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1717438957400369, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957400418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957400426, "dur":7194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957407670, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957407724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957407731, "dur":4579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957412356, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957412408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957412416, "dur":8499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957420965, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957421018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957421025, "dur":5872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957426955, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957427006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957427015, "dur":6383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957433450, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957433514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957433521, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957436576, "dur":140304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957576889, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717438957576907, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717438957578834, "dur":97034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717438957381282, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717438957381583, "dur":4036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717438957385619, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1717438957385744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717438957416464, "dur":4108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1717438957420650, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717438957420706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717438957420714, "dur":5787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717438957426565, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717438957426621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717438957426635, "dur":6413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717438957433092, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717438957433141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717438957433151, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717438957436313, "dur":73678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717438957509995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717438957510004, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717438957511236, "dur":164631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957381317, "dur":275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957381592, "dur":3896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957385494, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1717438957385714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957405015, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1717438957406485, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957406554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957406563, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957409409, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957409470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957409478, "dur":4830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957414353, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957414449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957414460, "dur":9158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957423681, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957423742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957423754, "dur":6237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957430055, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957430125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957430136, "dur":5242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957435429, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957435534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957435543, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957438194, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957438245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957438254, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957441374, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957441438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957441446, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957442658, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957442704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957442714, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957444053, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957444098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957444107, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957445369, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957445413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957445424, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957448288, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957448448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957448456, "dur":8865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957457364, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957457466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957457474, "dur":26289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717438957483813, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/data.unity3d" }}
-,{ "pid":12345, "tid":8, "ts":1717438957483858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717438957483864, "dur":11418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/data.unity3d" }}
-,{ "pid":12345, "tid":8, "ts":1717438957495329, "dur":180528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717438957381349, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717438957381599, "dur":4004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717438957385608, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1717438957385744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717438957416025, "dur":4037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1717438957420131, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717438957420184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717438957420197, "dur":3811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717438957424058, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717438957424117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717438957424212, "dur":6172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717438957430458, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717438957430552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717438957430560, "dur":5722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717438957436334, "dur":147843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717438957584186, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717438957584202, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717438957586191, "dur":89664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957381387, "dur":219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957381606, "dur":3937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957385549, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1717438957385720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957405406, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1717438957407785, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957407833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957407840, "dur":4384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957412269, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957412318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957412327, "dur":8777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957421168, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957421223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957421278, "dur":5736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957427063, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957427112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957427120, "dur":5964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957433145, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957433284, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957433291, "dur":3882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957437223, "dur":237092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957674320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717438957674330, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717438957675792, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":10, "ts":1717438957675794, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717438957381420, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717438957381612, "dur":3916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717438957385533, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1717438957385676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717438957398533, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1717438957399674, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717438957399726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717438957399732, "dur":7420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717438957407202, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717438957407282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717438957407290, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717438957410483, "dur":197336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717438957607915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717438957607930, "dur":5067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717438957613074, "dur":62789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717438957381447, "dur":170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717438957381618, "dur":3897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717438957385519, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1717438957385712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717438957399409, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1717438957400486, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957400523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717438957400548, "dur":7203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957407793, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957407844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717438957407852, "dur":4181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957412092, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957412156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717438957412172, "dur":8692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957420921, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957420979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717438957420987, "dur":5915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957426985, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957427033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717438957427095, "dur":77480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717438957504614, "dur":171265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717438957381477, "dur":148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717438957381625, "dur":3880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717438957385509, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1717438957385733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717438957405885, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1717438957407987, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717438957408043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717438957408049, "dur":4530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717438957412635, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717438957412701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717438957412710, "dur":9100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717438957421915, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717438957421983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717438957421993, "dur":7340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717438957429611, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717438957429680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717438957429689, "dur":74408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717438957504146, "dur":171708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957381507, "dur":124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957381631, "dur":3863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957385498, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1717438957385664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957392764, "dur":5227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1717438957398042, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957398103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957398423, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957399631, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957399675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957399683, "dur":7221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957406957, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957407020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957407066, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957410061, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957410117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957410125, "dur":10086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957420290, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957420385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957420394, "dur":4374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957424817, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957424971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957424979, "dur":5358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957430393, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957430449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957430458, "dur":4728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957435241, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957435300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957435321, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957437676, "dur":217837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957655519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717438957655552, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717438957656799, "dur":19060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957381531, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957381536, "dur":3951, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957385494, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":15, "ts":1717438957385497, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957385594, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/app.info" }}
-,{ "pid":12345, "tid":15, "ts":1717438957385599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957386298, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/app.info" }}
-,{ "pid":12345, "tid":15, "ts":1717438957388683, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1717438957388762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957388767, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1717438957390256, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":15, "ts":1717438957390375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957390381, "dur":10859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":15, "ts":1717438957401271, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957401303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957401308, "dur":6138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957407506, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957407626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957407648, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957411815, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957411872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957411884, "dur":8487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957420426, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957420487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957420494, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957424909, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957424981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957424989, "dur":7034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957432075, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957432179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957432195, "dur":3544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957435795, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957435849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957435861, "dur":21088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957457002, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957457137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957457152, "dur":25287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717438957482490, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":15, "ts":1717438957482543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957482554, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":15, "ts":1717438957483634, "dur":26236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":15, "ts":1717438957509879, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717438957509895, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":15, "ts":1717438957511263, "dur":164612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957381562, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957381562, "dur":3927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957385494, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1717438957385673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957397291, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1717438957398684, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957398742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957398949, "dur":6492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957405494, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957405562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957405570, "dur":3195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957408807, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957408856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957408865, "dur":4545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957413442, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957413505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957413577, "dur":8648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957422283, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957422339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957422347, "dur":6811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957429234, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957429294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957429312, "dur":7524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957436895, "dur":109484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957546388, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717438957546403, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsWindows/HackSoulsGame_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717438957547961, "dur":127916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717438957680130, "dur":1340, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1717439573412881, "dur":1346, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573414236, "dur":75, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1717439573414321, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1717439573414342, "dur":485, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1717439573414858, "dur":512, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573415370, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875184, "dur":380, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875564, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875574, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875577, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875584, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875586, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875591, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875592, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875597, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875598, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875602, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875604, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875607, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875609, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875612, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875613, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875617, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875618, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875622, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875623, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875627, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875629, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875632, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875634, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875637, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875639, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875643, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875644, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875648, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875649, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875653, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875654, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875657, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875677, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573875691, "dur":1925, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717439573415049, "dur":357, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573415423, "dur":3084, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573418521, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717439573418526, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573418615, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717439573418620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573419431, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717439573421536, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717439573421637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573422043, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717439573423428, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1717439573423529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573423538, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1717439573424517, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1717439573424602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573424611, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1717439573426464, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls.x86_64" }}
+,{ "pid":12345, "tid":1, "ts":1717439573426538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573426557, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls.x86_64" }}
+,{ "pid":12345, "tid":1, "ts":1717439573430496, "dur":37666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573468172, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573468376, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573469470, "dur":30406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573499885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573499899, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573501817, "dur":55430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573557253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573557266, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573558463, "dur":29742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573588215, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573588230, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573589740, "dur":117414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573707158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573707169, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573708417, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573708464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573708470, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573709866, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573709914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573709920, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573712368, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573712421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573712432, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573715391, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573715454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717439573715461, "dur":18005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717439573733525, "dur":141687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573415568, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573415569, "dur":2947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573418521, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1717439573418823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573464032, "dur":4543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1717439573468634, "dur":71194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573539836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573539929, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573541920, "dur":31872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573573801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573573813, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573575023, "dur":57325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573632352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573632361, "dur":12263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573644665, "dur":44524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573689195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573689206, "dur":7264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573696519, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573696564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573696580, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573697910, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573697963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573697975, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573700967, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573701030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573701043, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573703416, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573703460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573703472, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573704676, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573704723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573704734, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573706450, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573706495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573706508, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573707591, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573707636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573707643, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573709224, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573709284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573709292, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573710391, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573710442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573710448, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573713985, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573714037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573714046, "dur":3474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717439573718218, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1717439573718269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717439573718275, "dur":12463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1717439573730811, "dur":144375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573415159, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573415428, "dur":3089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573418517, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1717439573418738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573425542, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1717439573428729, "dur":32811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573461547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573461793, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573462886, "dur":34012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573496907, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573496924, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573498431, "dur":31099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573529535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573529546, "dur":13713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573543301, "dur":31328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573574634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573574645, "dur":6484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573581181, "dur":29586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573610772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573610784, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573612413, "dur":38918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573651338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573651350, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573653322, "dur":152901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573806229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717439573806239, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717439573807203, "dur":68029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717439573415236, "dur":201, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717439573415437, "dur":3078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717439573418516, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1717439573418808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717439573456347, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1717439573461648, "dur":50245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573511899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717439573511912, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573515567, "dur":84414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573599984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717439573599991, "dur":6939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573606980, "dur":25879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573632863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717439573632871, "dur":11067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573643983, "dur":35920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573679913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717439573679924, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573682984, "dur":107184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573790173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717439573790183, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717439573791340, "dur":83875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573415318, "dur":130, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573415448, "dur":3082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573418530, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717439573418823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573456514, "dur":8701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717439573465286, "dur":35099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573500390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573500398, "dur":8991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573509437, "dur":31673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573541115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573541126, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573542761, "dur":32933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573575723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573575898, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573578497, "dur":34101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573612603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573612613, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573614121, "dur":40129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573654256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573654269, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573655937, "dur":55220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573711215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573711223, "dur":3582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573714866, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573714931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573714939, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717439573717778, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1717439573717831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573717840, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1717439573721009, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1717439573721336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573721346, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1717439573722606, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/data.unity3d" }}
+,{ "pid":12345, "tid":5, "ts":1717439573722660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717439573722671, "dur":16437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/data.unity3d" }}
+,{ "pid":12345, "tid":5, "ts":1717439573739165, "dur":136042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573415492, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573415493, "dur":3019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573418516, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":6, "ts":1717439573418788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573447463, "dur":15961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":6, "ts":1717439573463473, "dur":37198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573500675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573500683, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573502106, "dur":51103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573553218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573553232, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573556135, "dur":32621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573588760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573588769, "dur":15441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573604262, "dur":27284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573631555, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573631570, "dur":11335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573642955, "dur":27770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573670733, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573670748, "dur":13159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573683946, "dur":87971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573771921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717439573771929, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717439573773273, "dur":101947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573415614, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573415615, "dur":2903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573418519, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1717439573418770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573431669, "dur":11132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1717439573442860, "dur":47004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573489873, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573489888, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573493046, "dur":66503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573559581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573559592, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573560710, "dur":27625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573588339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573588347, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573589701, "dur":41963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573631668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573631677, "dur":11206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573642943, "dur":27867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573670814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573670823, "dur":12545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573683408, "dur":101659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573785073, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717439573785086, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717439573786577, "dur":88633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717439573415676, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717439573415676, "dur":2834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717439573418516, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":8, "ts":1717439573418752, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717439573431099, "dur":5143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":8, "ts":1717439573436287, "dur":54625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717439573490918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717439573490930, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717439573493417, "dur":175539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717439573668998, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717439573669012, "dur":13105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717439573682159, "dur":63768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717439573745933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717439573745943, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717439573746924, "dur":128318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573415643, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573415643, "dur":2866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573418516, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":9, "ts":1717439573418675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573419598, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":9, "ts":1717439573421750, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1717439573421839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573421941, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1717439573423254, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1717439573423382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573423394, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1717439573424937, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":9, "ts":1717439573425061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573425069, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":9, "ts":1717439573426538, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/UnityPlayer.so" }}
+,{ "pid":12345, "tid":9, "ts":1717439573426611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573426624, "dur":59260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/UnityPlayer.so" }}
+,{ "pid":12345, "tid":9, "ts":1717439573485938, "dur":86454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573572401, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573572417, "dur":3666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573576127, "dur":34395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573610531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573610546, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573613767, "dur":57117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573670888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573670896, "dur":12995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573683935, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573683986, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573684027, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573687602, "dur":186290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573873897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717439573873923, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717439573875119, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1717439573875120, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573415714, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573415715, "dur":2809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573418525, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1717439573418780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573438989, "dur":5470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1717439573444510, "dur":45527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573490041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573490049, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573492817, "dur":45484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573538310, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573538325, "dur":7025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573545395, "dur":44068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573589468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573589478, "dur":13707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573603446, "dur":28660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573632111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573632119, "dur":12227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573644389, "dur":65811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573710204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573710211, "dur":6527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573716782, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573716827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573716834, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717439573717929, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":10, "ts":1717439573717981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573717987, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":10, "ts":1717439573720506, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1717439573720550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573720558, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1717439573721836, "dur":1769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1717439573723611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717439573723622, "dur":4239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1717439573727910, "dur":147274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717439573415786, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717439573415787, "dur":2726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717439573418517, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":11, "ts":1717439573418753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717439573431250, "dur":13260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":11, "ts":1717439573444558, "dur":122397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717439573566962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717439573566974, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717439573568061, "dur":30967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717439573599077, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717439573599093, "dur":9711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717439573608856, "dur":79557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717439573688421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717439573688435, "dur":3932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717439573692418, "dur":174173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717439573866596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717439573866607, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717439573867664, "dur":7544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573415833, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573415834, "dur":2693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573418529, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1717439573418784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573446941, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1717439573450587, "dur":39311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573489902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573489911, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573493196, "dur":199265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573692466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573692479, "dur":5698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573698224, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573698268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573698276, "dur":9695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573708014, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573708109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573708116, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573709615, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573709664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573709671, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573711059, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573711107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573711116, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573713458, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573713504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573713513, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573717138, "dur":108056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573825199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717439573825209, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717439573826257, "dur":48931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717439573415897, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717439573415898, "dur":2625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717439573418524, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1717439573418732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717439573425131, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1717439573426697, "dur":100342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717439573527046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717439573527060, "dur":13532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717439573540638, "dur":51608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717439573592254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717439573592267, "dur":13185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717439573605501, "dur":40246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717439573645753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717439573645768, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717439573649763, "dur":65575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717439573715366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717439573715375, "dur":4217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717439573719637, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":13, "ts":1717439573719680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717439573719716, "dur":9212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":13, "ts":1717439573729005, "dur":146175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573415921, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573415922, "dur":2603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573418526, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1717439573418750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573430863, "dur":5131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1717439573436034, "dur":63844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573499886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573499899, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573501536, "dur":58001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573559542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573559596, "dur":7605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573567245, "dur":64347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573631596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573631607, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573633467, "dur":34371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573667846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573667860, "dur":13047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573680954, "dur":43736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573724697, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573724715, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717439573726151, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1717439573726297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717439573726314, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1717439573727538, "dur":147644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717439573415966, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717439573415966, "dur":2571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717439573418538, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1717439573418773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717439573432108, "dur":7292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1717439573439481, "dur":61339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717439573500823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717439573500830, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717439573501934, "dur":237227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717439573739167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717439573739183, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717439573740521, "dur":134684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573415999, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573416000, "dur":2520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573418522, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1717439573418726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573420689, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1717439573422120, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1717439573422198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573422231, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1717439573423384, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1717439573423529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573423538, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1717439573425172, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1717439573425275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573425341, "dur":17432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1717439573442840, "dur":35975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573478827, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573478852, "dur":7902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573486800, "dur":29763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573516569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573516580, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573517721, "dur":48361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573566090, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573566105, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573567742, "dur":63894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573631639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573631647, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573633535, "dur":138357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573771898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717439573771909, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timas/Desktop/jAMgAME/Builds/HackerSoulsLinux/HackerSouls_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717439573773592, "dur":101609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717439573878879, "dur":1342, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
